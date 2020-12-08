@@ -1,6 +1,6 @@
-================
-HDMI-MIPI Bridge
-================
+=========================
+HDMI to MIPI CSI-2 bridge
+=========================
 
 Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
