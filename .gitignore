@@ -1,0 +1,16 @@
+*.zip
+*.Zip
+*.dat
+*.Dat
+*.log
+*.db*
+__Previews
+*Project Logs*
+*Project Outputs*
+*History*
+*FCStd1
+*bak
+*.PrjPCBStructure
+*.PrjPcbStructure
+*Status Report.*
+*.step
