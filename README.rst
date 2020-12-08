@@ -4,7 +4,7 @@ HDMI-MIPI Bridge
 
 Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
-.. image:: Images/hdmi-mipi-bridge.png
+.. image:: Images/hdmi-mipi-bridge.jpg
    :scale: 40%
 
 Overview
