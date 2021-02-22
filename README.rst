@@ -2,7 +2,7 @@
 HDMI to MIPI CSI-2 bridge
 =========================
 
-Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2017-2021 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: Images/hdmi-mipi-bridge.jpg
    :scale: 40%
@@ -51,4 +51,4 @@ Antmicro’s services involve BSP development so you can hire us to make the nec
 License
 =======
 
-`MIT <LICENSE>`_
+`Apache-2.0 <LICENSE>`_
