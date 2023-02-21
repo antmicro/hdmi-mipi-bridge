@@ -4,7 +4,7 @@ HDMI to MIPI CSI-2 bridge
 
 Copyright (c) 2017-2021 `Antmicro <https://www.antmicro.com>`_
 
-.. image:: Images/hdmi-mipi-bridge.jpg
+.. image:: img/hdmi-mipi-bridge.jpg
    :scale: 40%
 
 Overview
@@ -19,11 +19,9 @@ Repository structure:
 The main repository directory contains the Altium PCB project file, the Outjob file, LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``PCB`` -  contains all Altium design files
-* ``Libraries`` - contains component libraries
-* ``Documentation`` - contains selected files for device fabrication (schematic in PDF, BoM) generated from the Altium project
-* ``Images`` - contains graphics for this README
-* ``3DModels`` - contains files defining the mechanical model of the assembled board
+* ``lib`` - contains component libraries
+* ``doc`` - contains generated schematics and other documentation
+* ``img`` - contains graphics for this README
 
 Key features
 ============
