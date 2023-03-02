@@ -529,6 +529,10 @@
     [
       "d09d28b1-d7e8-46ff-a02b-bb4ed7a95e81",
       "Channel 2"
+    ],
+    [
+      "ab3e2e9c-5c2e-4eee-802f-86526e1aed66",
+      "CSI"
     ]
   ],
   "text_variables": {}
