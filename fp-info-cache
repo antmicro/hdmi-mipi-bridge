@@ -1,4 +1,4 @@
-23418111868256972
+23421487308711944
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88442,8 +88442,8 @@ antmicro-footprints
 
 
 0
-0
-0
+21
+20
 antmicro-footprints
 5055503420
 
@@ -97475,6 +97475,13 @@ WQFN-40_1EP_6x3mm_Pitch0.4mm_EP4.7x2.7mm
 41
 41
 antmicro-footprints
+WQFN-42-1EP_3.5x9mm_P0.5mm_EP2.05x7.55mm
+WQFN, 42 Pin (http://www.ti.com/lit/ds/symlink/ts3l501e.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+57
+43
+antmicro-footprints
 WSON-8-1EP_4x4mm_P0.8mm_EP2.6x3mm
 WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
@@ -98029,6 +98036,13 @@ mounting-hole-3mm-NPTH
 0
 antmicro-footprints
 mounting-hole-4.2mm-NPTH
+
+
+0
+0
+0
+antmicro-footprints
+mounting-hole-4.3mm-NPTH
 
 
 0
