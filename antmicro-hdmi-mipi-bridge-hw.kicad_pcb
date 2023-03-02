@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Antmicro HDMI-MIPI Bridge")
+    (date "2023-03-02")
+    (rev "1.3.0")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
@@ -10417,7 +10423,7 @@
   (gr_line (start 162.4 120.4) (end 162.4 114.1) (layer "F.SilkS") (width 0.15) (tstamp f467accf-d750-47fa-b755-31ebd43fb397))
   (gr_line (start 159.8 119.35) (end 159.15 119.35) (layer "F.SilkS") (width 0.15) (tstamp fa9b2ac2-0443-410d-8e97-d02bfdadb169))
   (gr_rect (start 115 90) (end 183 135) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 259e7e0b-6dd8-4691-9768-42b3e08839e7))
-  (gr_text "Rev. 1.2.1" (at 174.725 104.4 270) (layer "F.Cu") (tstamp 7b5462f2-209f-4354-87e3-43fb6c4aaa02)
+  (gr_text "Rev. 1.3.0" (at 174.725 104.4 270) (layer "F.Cu") (tstamp 7b5462f2-209f-4354-87e3-43fb6c4aaa02)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "HDMI MIPI Bridge" (at 176.175 104.4 270) (layer "F.Cu") (tstamp 9de79d7b-62d0-4cde-bb9e-c81bd4b5ee12)
@@ -10426,7 +10432,7 @@
   (gr_text "HDMI MIPI Bridge" (at 176.175 104.4 270) (layer "F.Mask") (tstamp 77ed7779-70dd-494e-9d1b-679b68f37e20)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Rev. 1.2.1" (at 174.725 104.4 270) (layer "F.Mask") (tstamp cdb88400-7383-4ae6-8e31-6eacd2708ed9)
+  (gr_text "Rev. 1.3.0" (at 174.725 104.4 270) (layer "F.Mask") (tstamp cdb88400-7383-4ae6-8e31-6eacd2708ed9)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
