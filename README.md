@@ -1,11 +1,12 @@
 # HDMI to MIPI CSI-2 Bridge
 
-Copyright (c) 2017-2021 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2017-2023 [Antmicro](https://www.antmicro.com)
 
 ![HDMI-MIPI Bridge](/img/hdmi-mipi-bridge.jpg)
 
 ## Overview
-This repository contains the open hardware design files for Antmicro's HDMI-MIPI Bridge, which is a video accessory converting HDMI video stream into MIPI CSI-2 counterpart. The conversion is performed using Toshiba [TC358743XBG](https://toshiba.semicon-storage.com/ap-en/semiconductor/product/interface-bridge-ics-for-mobile-peripheral-devices/hdmir-interface-bridge-ics/detail.TC358743XBG.html) HDMI interface bridge.
+This repository contains the open hardware design files for Antmicro's HDMI-MIPI Bridge, which is a video accessory converting HDMI video stream into MIPI CSI-2 counterpart.
+The conversion is performed using Toshiba [TC358743XBG](https://toshiba.semicon-storage.com/ap-en/semiconductor/product/interface-bridge-ics-for-mobile-peripheral-devices/hdmir-interface-bridge-ics/detail.TC358743XBG.html) HDMI interface bridge.
 The board includes two independent conversion channels supporting up to two HDMI streams.
 
 ## Repository structure:
@@ -38,5 +39,6 @@ Please note that some additional work might be required to integrate this board 
 Antmicro’s services involve BSP development so you can hire us to make the necessary modifications.
 
 ## License
-[Apache-2.0](LICENSE)
+
+This project is licensed under the [Apache-2.0](LICENSE) license.
 
