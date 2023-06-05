@@ -1,4 +1,4 @@
-23423165137359644
+23876938584873802
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87484,7 +87484,7 @@ WE-RJ45_Transformer-10/100/1000
 
 0
 16
-16
+15
 antmicro-footprints
 7499511611A
 <b>WE-RJ45 LAN Transformer<br></b>10/100/1000 Base-T
@@ -87535,13 +87535,6 @@ WR-FPC 0.5mm SMT ZIF Horizontal Top Contact, 20Pins
 22
 22
 antmicro-footprints
-68712414022
-<b>WR-FPC 0.5mm SMT ZIF Horizontal Top Contact, 24 Pins
-
-0
-26
-26
-antmicro-footprints
 1-794610-1
 MATE-N-LOK on-wire pin
 
@@ -87554,7 +87547,7 @@ antmicro-footprints
 
 0
 69
-69
+68
 antmicro-footprints
 2-1761603-6
 
@@ -87626,6 +87619,13 @@ antmicro-footprints
 4
 4
 antmicro-footprints
+4x0R_0402_array_EXB28V
+
+
+0
+8
+8
+antmicro-footprints
 5-2337992-8
 
 
@@ -87667,6 +87667,13 @@ antmicro-footprints
 0
 4
 4
+antmicro-footprints
+8-188275-2
+
+
+0
+12
+12
 antmicro-footprints
 8-USON
 
@@ -87719,14 +87726,14 @@ antmicro-footprints
 antmicro-footprints
 0201-cap
 Capacitor SMD 0201
-capacitor
+capacitor SMD 0201
 0
 4
 2
 antmicro-footprints
 0201-res
 Resistor SMD 0201
-resistor
+resistor SMD 0201
 0
 4
 2
@@ -87739,36 +87746,22 @@ antmicro-footprints
 2
 antmicro-footprints
 0402-cap
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)
-capacitor 0402
-0
-2
-2
-antmicro-footprints
-0402-cap_EIA
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)
-capacitor 0402
+Capacitor SMD 0402
+capacitor SMD 0402
 0
 2
 2
 antmicro-footprints
 0402-res
-Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-antmicro-footprints
-0402-res_EIA
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)
-capacitor 0402
+Resistor SMD 0402
+resistor SMD 0402
 0
 2
 2
 antmicro-footprints
 0603
-
-
+Ferrite SMD 0603
+ferrite SMD 0603
 0
 2
 2
@@ -87781,7 +87774,7 @@ antmicro-footprints
 2
 antmicro-footprints
 0603-cap
-Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized
+Capacitor SMD 0603
 capacitor 0603
 0
 2
@@ -87795,8 +87788,8 @@ antmicro-footprints
 2
 antmicro-footprints
 0603-res
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal
-resistor 0603
+Resistor SMD 0603
+resistor SMD 0603
 0
 2
 2
@@ -87830,8 +87823,8 @@ antmicro-footprints
 40
 antmicro-footprints
 0805-cap
-
-
+Capacitor SMD 0805
+capacitor SMD 0805
 0
 2
 2
@@ -87893,8 +87886,8 @@ antmicro-footprints
 2
 antmicro-footprints
 1206-cap
-http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf
-
+Capacitor SMD 1206
+capacitor SMD 1206
 0
 2
 2
@@ -87907,8 +87900,8 @@ http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.
 2
 antmicro-footprints
 1210-cap
-http://www.murata-ps.com/data/magnetics/kmp_8200c.pdf
-
+Capacitor SMD 1210
+capacitor SMD 1210
 0
 2
 2
@@ -87935,15 +87928,15 @@ capacitor handsolder
 2
 antmicro-footprints
 2010-res
-Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor
+Resistor SMD 2010
+resistor SMD 2010
 0
 2
 2
 antmicro-footprints
 2220-cap
-Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor
+Capacitor SMD 2220
+capacitor SMD 2220
 0
 2
 2
@@ -87975,13 +87968,6 @@ antmicro-footprints
 0
 2
 2
-antmicro-footprints
-09403 POGO-PIN 2 MM X 11,3 MM
-String-Loaded Pin ATTEND
-Connector
-0
-1
-1
 antmicro-footprints
 43045-0213
 Molex Micro-Fit 3.0 Connector System, 43045-0213 (compatible alternatives: 43045-0212, 43045-0224), 1 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator
@@ -88157,13 +88143,6 @@ antmicro-footprints
 0
 173
 173
-antmicro-footprints
-2822541-1
-
-
-0
-17
-17
 antmicro-footprints
 4301201
 43-01201
@@ -88610,7 +88589,7 @@ antmicro-footprints
 
 
 0
-1
+5
 1
 antmicro-footprints
 9774040151
@@ -88631,7 +88610,7 @@ antmicro-footprints
 
 
 0
-1
+5
 1
 antmicro-footprints
 9774065151
@@ -88753,6 +88732,13 @@ SO8 dual optocoupler
 8
 8
 antmicro-footprints
+AJP92A8813
+
+
+0
+8
+8
+antmicro-footprints
 AMASS_XT30U-F_1x02_P5.0mm_Vertical
 Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
 RC Connector XT30
@@ -88774,12 +88760,26 @@ AMJMEFB
 4
 4
 antmicro-footprints
+AMPHENOL_10146070-113Y0LF
+
+
+0
+166
+166
+antmicro-footprints
 AMPHENOL_RJHSE-5381
 
 
 0
 14
 14
+antmicro-footprints
+AP62301WU-7-TSOT23-6
+
+
+0
+6
+6
 antmicro-footprints
 ARE1-8F30-00000
 
@@ -88817,7 +88817,7 @@ ARTY_A7
 0
 antmicro-footprints
 ARTY_A7_SHIELD
-Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R3
 Arduino UNO R3
 0
 64
@@ -89103,12 +89103,40 @@ BGA-80pin_ckfBGA80_7.0x7.0mm
 80
 80
 antmicro-footprints
+BGA-82_11x9mm_Layout13x11_P0.8mm_DDR5_MO-210-AN
+
+
+0
+82
+82
+antmicro-footprints
+BGA-96-48_8x14mm_Layout16x9_P0.8mm
+
+
+0
+96
+96
+antmicro-footprints
 BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm
 BGA-96, http://www.mouser.com/ds/2/198/43-46TR16640B-81280BL-706483.pdf
 BGA-96
 0
 96
 96
+antmicro-footprints
+BGA-100_11x11mm_Layout10x10_P1mm
+
+
+0
+100
+100
+antmicro-footprints
+BGA-196-153_11.5x13mm_Layout14x14_P0.5x0.5mm
+
+
+0
+153
+153
 antmicro-footprints
 BGA-200_10.0x14.5mm_Layout12x22_P0.80x0.65mm
 BGA-200, 14.5x10.0mm, 200 Ball, 12x22 Layout, 0.8x0.65mm Pitch, http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf
@@ -89117,6 +89145,13 @@ BGA 200 0.8x0.65
 200
 200
 antmicro-footprints
+BGA-256_14x14mm_Layout16x16_P0.8x0.8mm
+BGA 256 16x16 14.0mmx14.0mm 0.8mm pitch
+BGA 256 0.8 BG256 caBGA 16x16
+0
+256
+256
+antmicro-footprints
 BGA-256_16x16_14.0x14.0mm
 BGA 256 16x16 14.0mmx14.0mm 0.8mm pitch
 BGA 256 0.8 BG256 caBGA 16x16
@@ -89124,12 +89159,26 @@ BGA 256 0.8 BG256 caBGA 16x16
 256
 256
 antmicro-footprints
-BGA8C50P2X4_88X188X50N
+BGA-256_17x17mm_Layout16x16_P1mm_VSC8862XIC
 
 
 0
-8
-8
+256
+256
+antmicro-footprints
+BGA-484_19x19mm_Layout22x22_P0.8mm_FCVG484
+FCVG484, 19.0x19.0mm, 484 Ball, 22x22 Layout, 0.8mm Pitch
+BGA 484 0.8
+0
+484
+484
+antmicro-footprints
+BGA-676_27x27mm_Layout26x26_P1X1mm
+FPGA XC7K160TFBG676
+FPGA XC7K160TFBG676
+0
+676
+676
 antmicro-footprints
 BGA80P96C6X16_800X1400X110
 
@@ -89173,13 +89222,6 @@ BGA484C100P22X22_2300X2300X244N
 484
 484
 antmicro-footprints
-BGA676C100P26X26_2700X2700X254
-
-
-0
-676
-676
-antmicro-footprints
 BK20104M121-T
 
 
@@ -89206,7 +89248,7 @@ BM04B-SRSS-TB-LF-SN
 
 0
 6
-4
+5
 antmicro-footprints
 BM06B-SRSS-TB-LF-SN
 
@@ -89216,11 +89258,11 @@ BM06B-SRSS-TB-LF-SN
 7
 antmicro-footprints
 BM08B-SRSS-TB-LF-SN
-
-
+Connector SMD pitch 1mm
+connector SMD pitch 1mm
 0
 10
-10
+9
 antmicro-footprints
 BM09B-SRSS-TB-LF-SN
 
@@ -89284,6 +89326,20 @@ PCIe
 0
 36
 36
+antmicro-footprints
+BarrelJack_3167288_Horizontal
+
+
+0
+3
+3
+antmicro-footprints
+BarrelJack_PJ-102BH
+
+
+0
+3
+3
 antmicro-footprints
 Barrel_Jack_5.5mmODx2.1mmID_PJ-102A
 
@@ -89474,6 +89530,69 @@ Bourns-SRP6540-0-0-MFG
 2
 2
 antmicro-footprints
+Bus_DDR4_Conn_Edge
+SODIMM DDR4 Edge Connector
+SODIMM DDR4 Edge Connector
+0
+260
+260
+antmicro-footprints
+Bus_DDR4_SODIMM_TE_2309413
+260 pin DDR4 SODIMM Right Angle Socket, 9.2 mm (0.362 in) Stack Height, https://www.te.com/global-en/product-2309413-1.html
+ddr4 sodimm right angle 9.2mm height jetson som
+0
+262
+262
+antmicro-footprints
+Bus_DDR4_Socket_DIMM_2199155-1
+
+
+0
+291
+289
+antmicro-footprints
+Bus_DDR5_Socket_Amphenol_DDR504111002KQ
+DIMM Connectors DDR5 SMD 288P
+
+0
+291
+291
+antmicro-footprints
+Bus_M.2_Socket_Key_B_TE_1-2199230-0
+
+
+0
+69
+68
+antmicro-footprints
+Bus_M.2_Socket_Key_E_TE_1-2199119-6
+
+
+0
+69
+68
+antmicro-footprints
+Bus_M.2_Socket_Key_E_TE_2199230-4
+
+
+0
+69
+68
+antmicro-footprints
+Bus_M.2_Socket_Key_M_Amphenol_MDT580M01001
+
+
+0
+69
+69
+antmicro-footprints
+Bus_M.2_Socket_Key_M_TE_1-2199230-6
+
+
+0
+69
+68
+antmicro-footprints
 CABGA756_27x27mm_p0.8mm
 
 
@@ -89557,6 +89676,13 @@ CONN_RJMG1BD3B8K1ANR
 0
 14
 14
+antmicro-footprints
+CONV_PDQE30-Q48-S5-D
+
+
+0
+6
+6
 antmicro-footprints
 CP_Elec_5x5.8
 SMD capacitor, aluminum electrolytic, Panasonic, 5.0x5.8mm
@@ -89649,6 +89775,13 @@ CSD87588N
 6
 5
 antmicro-footprints
+CST3-3
+
+
+0
+3
+3
+antmicro-footprints
 CUI_SJ-43516-SMT-BE
 
 
@@ -89669,6 +89802,69 @@ CUN66B1B
 0
 5
 3
+antmicro-footprints
+C_0201
+Capacitor SMD 0201
+capacitor SMD 0201
+0
+4
+2
+antmicro-footprints
+C_0402_1005Metric
+Capacitor SMD 0402
+capacitor SMD 0402
+0
+2
+2
+antmicro-footprints
+C_0402_1005Metric_EIA
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)
+capacitor 0402
+0
+2
+2
+antmicro-footprints
+C_0603_1608Metric
+Capacitor SMD 0603
+capacitor 0603
+0
+2
+2
+antmicro-footprints
+C_0805_2012Metric
+Capacitor SMD 0805
+capacitor SMD 0805
+0
+2
+2
+antmicro-footprints
+C_1206_3216Metric
+Capacitor SMD 1206
+capacitor SMD 1206
+0
+2
+2
+antmicro-footprints
+C_1210_3225Metric
+Capacitor SMD 1210
+capacitor SMD 1210
+0
+2
+2
+antmicro-footprints
+C_2220_5650Metric
+Capacitor SMD 2220
+capacitor SMD 2220
+0
+2
+2
+antmicro-footprints
+C_ZA-G
+
+
+0
+2
+2
 antmicro-footprints
 Camera_Lens_18mm
 
@@ -89761,13 +89957,6 @@ Coilcraft-XAL5030
 2
 2
 antmicro-footprints
-Coilcraft-XAL6030
-
-
-0
-2
-2
-antmicro-footprints
 Coilcraft-XAL7070
 
 
@@ -89782,12 +89971,89 @@ Coilcraft-XEL4030
 2
 2
 antmicro-footprints
+Conn_BNC_031-70526-21
+
+
+0
+3
+2
+antmicro-footprints
+Conn_FFC_Molex_5051101097
+Bottom contact
+
+0
+12
+11
+antmicro-footprints
+Conn_FFC_WE_68715014x22
+
+
+0
+52
+51
+antmicro-footprints
+Conn_FFC_WE_68715014x22_ALT
+
+
+0
+54
+51
+antmicro-footprints
+Conn_MMCX-J-P-H-ST-MT1
+
+
+0
+5
+2
+antmicro-footprints
+Conn_Molex_NanoFit_1053131202
+Molex Nano-Fit Power Connectors, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053131202_sd.pdf)
+connector Molex Nano-Fit NanoFit top entry 2.50mm horizontal
+0
+2
+2
+antmicro-footprints
+Conn_PhoenixContact_1778764
+
+
+0
+4
+3
+antmicro-footprints
+Conn_PhoenixContact_1815264
+
+
+0
+2
+2
+antmicro-footprints
+Conn_USB-C_WE_632723300011
+
+
+0
+32
+25
+antmicro-footprints
+Conn_smd_4726
+
+
+0
+8
+8
+antmicro-footprints
 Crystal_5x7mm
 
 
 0
 4
 4
+antmicro-footprints
+Crystal_SMD_2012-2Pin_2.0x1.2mm
+SMD Crystal 2012
+SMD SMT crystal
+0
+2
+2
 antmicro-footprints
 D4-Vision-Processor-Card-model
 
@@ -89825,7 +90091,7 @@ DDR5-testbed
 0
 antmicro-footprints
 DDR504111002KQ
-DIMM Connectors DDR5 MMS VT SURFACE MOUNT 288P
+DIMM Connectors DDR5 SMD 288P
 
 0
 291
@@ -89873,6 +90139,13 @@ DF20G-20DP-1V
 22
 20
 antmicro-footprints
+DF40C-60DP-0.4V_51_
+
+
+0
+64
+61
+antmicro-footprints
 DF40C-60DS-0.4V51
 
 
@@ -89908,14 +90181,21 @@ DF40C_2.0_-24DS-0.4V_51_
 24
 24
 antmicro-footprints
-DF40HC(3.0)-60DS-0.4V(51)
+DF40HC(3.0)-80DS-0.4v
 
 
 0
-60
-60
+80
+80
 antmicro-footprints
 DF40HC(3.0)-100DS-0.4v
+
+
+0
+100
+100
+antmicro-footprints
+DF40HC-_3.0_-100DS-0.4v_mirrored
 
 
 0
@@ -89930,8 +90210,8 @@ DFN-4_1.2x1.2mm
 5
 antmicro-footprints
 DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
-6-Lead Plastic Dual Flat, No Lead Package (MA) - 2x2x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
-DFN 0.65
+6-Lead Plastic Dual Flat, No Lead Package - 2x2x0.9 mm Body
+DFN
 0
 9
 7
@@ -89957,11 +90237,25 @@ DFN-6_3x3mm_EP1
 7
 7
 antmicro-footprints
+DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm
+DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+9
+9
+antmicro-footprints
 DFN-8-1EP_2x3mm
 
 
 0
 9
+9
+antmicro-footprints
+DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm
+8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body (http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf)
+DFN 0.5
+0
+13
 9
 antmicro-footprints
 DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm
@@ -90041,12 +90335,33 @@ http://www.ftdichip.com/Support/Documents/TechnicalNotes/TN_166%20FTDI%20Example
 13
 13
 antmicro-footprints
+DFN-12-1EP_3x3mm_P0.5mm
+DFN-12
+
+0
+13
+13
+antmicro-footprints
 DFN-12_4x3mm
 
 
 0
 13
 13
+antmicro-footprints
+DFN-14-1EP_4.0x3.0mm_P0.5mm
+
+
+0
+17
+15
+antmicro-footprints
+DFN-14-1EP_4x3mm_P0.5mm
+
+
+0
+17
+15
 antmicro-footprints
 DFN5B_1.2x1.2mm
 
@@ -90062,6 +90377,13 @@ DFN1006-3
 3
 3
 antmicro-footprints
+DFN1210-6
+
+
+0
+6
+6
+antmicro-footprints
 DFN3538
 
 
@@ -90069,12 +90391,19 @@ DFN3538
 4
 4
 antmicro-footprints
-DHVQFN14
+DHVQFN-14_1EP_2.5x3mm
 
 
 0
 15
 15
+antmicro-footprints
+DHVQFN-16-1EP_2.5x3.5mm_P0.5mm
+
+
+0
+19
+17
 antmicro-footprints
 DHVQFN20
 
@@ -90286,6 +90615,20 @@ Diode SMB (DO-214AA)
 2
 2
 antmicro-footprints
+D_SOD-123
+
+
+0
+2
+2
+antmicro-footprints
+D_SOD-323F
+
+
+0
+2
+2
+antmicro-footprints
 Diode_DO-35_P10mm
 
 
@@ -90313,6 +90656,20 @@ DisplayPort_Mini_2129320-3_EuroCircuits
 0
 24
 21
+antmicro-footprints
+DisplayPort_Mini_MOLEX_47272-0001
+
+
+0
+24
+21
+antmicro-footprints
+DisplayPort_Mini_TE_2129320-3
+
+
+0
+24
+24
 antmicro-footprints
 ECMF06-6AM16
 
@@ -90364,15 +90721,15 @@ ERF8-040-01-X-D-RA-TR
 84
 antmicro-footprints
 ERF8-040-05.0-X-DV-L-XX
-Board to Board & Mezzanine Connectors 0.80 mm Edge Rate Rugged High Speed Socket 40pos 2row 80pin with latches
-Board to Board & Mezzanine Connectors 0.80 mm Edge Rate Rugged High Speed Socket 40pos 2row 80pin with latches
+Board to Board & Mezzanine Connectors
+Board to Board & Mezzanine Connectors
 0
-82
-79
+80
+80
 antmicro-footprints
 ERF8-040-XX.X-X-DV-XX
-Board to Board & Mezzanine Connectors 0.80 mm Edge Rate Rugged High Speed Socket 40pos 2row 80pin
-Board to Board & Mezzanine Connectors 0.80 mm Edge Rate Rugged High Speed Socket 40pos 2row 80pin
+Board to Board & Mezzanine Connectors 
+Board to Board & Mezzanine Connectors
 0
 80
 80
@@ -90399,13 +90756,6 @@ ESP32-WROOM-32D
 39
 antmicro-footprints
 EXB18V
-
-
-0
-8
-8
-antmicro-footprints
-EXB28V
 
 
 0
@@ -90460,6 +90810,48 @@ FBGA-24
 0
 24
 24
+antmicro-footprints
+FBGA-24-1_6x8mm_Layout5x5_P1mm
+
+
+0
+24
+24
+antmicro-footprints
+FB_0402_1005Metric
+Ferrite Bead SMD 0402
+ferrite bead SMD 0402
+0
+2
+2
+antmicro-footprints
+FB_0603_1608Metric
+
+
+0
+2
+2
+antmicro-footprints
+FB_0805_2012Metric
+
+
+0
+2
+2
+antmicro-footprints
+FB_1206_3216Metric
+
+
+0
+2
+2
+antmicro-footprints
+FCVG484
+FCVG484, 19.0x19.0mm, 484 Ball, 22x22 Layout, 0.8mm Pitch, https://www.microsemi.com/document-portal/doc_download/1244577-ug0902-polarfire-soc-fpga-packaging-and-pin-descriptions-user-guide
+BGA 484 0.8
+0
+484
+484
 antmicro-footprints
 FDC6330L
 
@@ -90517,11 +90909,18 @@ FLIR_Lepton_Socket_1050281001
 68
 33
 antmicro-footprints
-FT4232HQ
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+FMC_SAMTEC_ASP-134486-01
+VITA 57.1 FMC – SEARAY™ HPC
+
 0
-91
+400
+400
+antmicro-footprints
+FT4232HQ
+QFN 64 Pin
+QFN
+0
+74
 65
 antmicro-footprints
 FTQFN
@@ -90545,6 +90944,20 @@ FX10A-168S-SV85
 344
 172
 antmicro-footprints
+F_0603_1608Metric
+
+
+0
+2
+2
+antmicro-footprints
+F_1206_3216Metric
+
+
+0
+2
+2
+antmicro-footprints
 FanPinHeader_1x04_P2.54mm_Vertical
 4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
 pin header 4-pin CPU fan
@@ -90565,6 +90978,13 @@ fiducial
 0
 1
 0
+antmicro-footprints
+Flexypin_56_P1.27mm_Caravel_Breakout
+
+
+0
+112
+56
 antmicro-footprints
 GCT_USB4105-GF-A
 
@@ -90623,8 +91043,8 @@ GPS_Module_CAM-M8C-0
 31
 antmicro-footprints
 GSB3112311HR
-
-
+Ethernet Amphenol
+Ethernet Amphenol
 0
 22
 19
@@ -90699,6 +91119,13 @@ http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-
 23
 20
 antmicro-footprints
+HDMI_A_Female_Wurth_685119134923
+http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf
+
+0
+23
+20
+antmicro-footprints
 HDMI_Female_DC3RX19JA3R1700
 
 
@@ -90740,6 +91167,13 @@ HRS_DF40C-100DP-0.4V(51)
 0
 104
 104
+antmicro-footprints
+HRS_DF40HC_3.0_-60DS-0.4V_51_
+
+
+0
+60
+60
 antmicro-footprints
 HRS_DM3CS-SF
 
@@ -90923,12 +91357,26 @@ https://www.ametherm.com/datasheets/as322r025
 2
 2
 antmicro-footprints
+IC_TPS65983BAZBHR
+
+
+0
+96
+96
+antmicro-footprints
 IC_TPS65987DDHRSHR
 
 
 0
 78
 55
+antmicro-footprints
+IDC-Header_2x05_P1.27_Vertical_SMD_Samtec_SHF-105-01-X-D-SM
+
+
+0
+10
+10
 antmicro-footprints
 IDC-Header_2x17_P2.54mm_Horizontal
 Through hole IDC box header, 2x17, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
@@ -90945,6 +91393,13 @@ IFSC1515AHER2R2M01
 2
 antmicro-footprints
 IHLP-1212AE
+
+
+0
+2
+2
+antmicro-footprints
+IHLP1616BZ
 
 
 0
@@ -91035,6 +91490,13 @@ IND_LQH32PN1R0NN0L
 2
 2
 antmicro-footprints
+IPEX_20455-A20E-76
+
+
+0
+26
+21
+antmicro-footprints
 IPEX_20708-050E-01
 
 
@@ -91084,6 +91546,13 @@ QFN 0.4
 24
 24
 antmicro-footprints
+JHL6340SLLSQ
+
+
+0
+337
+337
+antmicro-footprints
 JJAV0UJ253NONMRTR
 
 
@@ -91112,7 +91581,21 @@ JS202011JCQN
 6
 6
 antmicro-footprints
-JST_SM06B-SRSS-TB(LF)(SN)
+JST_BM04B-GHS-TBT-LF-SN-N
+
+
+0
+6
+4
+antmicro-footprints
+JST_SM02B-SRSS-TB-LF-SN
+
+
+0
+4
+2
+antmicro-footprints
+JST_SM06B-SRSS-TB-LF-SN
 
 
 0
@@ -91126,12 +91609,19 @@ JST_SM08B-SRSS-TB(LF)(SN)
 10
 10
 antmicro-footprints
-JST_SM09B-SRSS-TB(LF)(SN)
+JST_SM09B-SRSS-TB-LF-SN
 
 
 0
 11
 11
+antmicro-footprints
+JU6-6_7x5mm_P2.54mm
+SMD Crystal Oscillator IDT
+SMD SMT crystal oscillator
+0
+6
+6
 antmicro-footprints
 JXT71140NL
 JXT7-1140NL
@@ -91139,6 +91629,20 @@ Connector
 0
 30
 30
+antmicro-footprints
+J_ADM6-60-01.5-L-4-2-A_SAMTEC
+
+
+0
+240
+240
+antmicro-footprints
+J_ERF8-040-05.0_SAMTEC
+Board to Board & Mezzanine Connectors 
+Board to Board & Mezzanine Connectors
+0
+80
+80
 antmicro-footprints
 Jumper_1x2_P2.54
 
@@ -91183,8 +91687,8 @@ Jumper_Tin_P10.9mm
 2
 antmicro-footprints
 KEMET_A
-
-
+Capacitor SMD KEMET_A
+capacitor SMD KEMET_A
 0
 2
 2
@@ -91204,8 +91708,8 @@ KEMET_C
 2
 antmicro-footprints
 KEMET_D
-
-
+Capacitor SMD KEMET_D
+capacitor SMD KEMET_D
 0
 2
 2
@@ -91379,8 +91883,36 @@ LED_7Seg_VAOS-C402S9-BW_50
 10
 antmicro-footprints
 LED_0603
-
-
+LED SMD 0603
+LED SMD 0603
+0
+2
+2
+antmicro-footprints
+LED_0603_1608Metric
+LED SMD 0603
+LED SMD 0603
+0
+2
+2
+antmicro-footprints
+LED_0603_1608Metric_B
+LED SMD 0603 Blue
+LED SMD 0603 Blue
+0
+2
+2
+antmicro-footprints
+LED_0603_1608Metric_G
+LED SMD 0603 Green
+LED SMD 0603 Green
+0
+2
+2
+antmicro-footprints
+LED_0603_1608Metric_R
+LED SMD 0603 Red
+LED SMD 0603 Red
 0
 2
 2
@@ -91413,6 +91945,13 @@ LED_Dual0603_APTB1615SURKCGKC-F01
 4
 4
 antmicro-footprints
+LED_IR_LZ1-00R802
+
+
+0
+5
+5
+antmicro-footprints
 LED_IR_TSAL6100
 
 
@@ -91423,6 +91962,13 @@ antmicro-footprints
 LED_RGB_WP154A4SUREQBFZGC
 http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf
 
+0
+4
+4
+antmicro-footprints
+LED_SMD_1.6x1.6mm_Kingbright_APTF1616
+1.6 x 1.6 mm Full-Color Surface Mount LED
+LED
 0
 4
 4
@@ -91452,7 +91998,7 @@ LFCSP-32-1EP-5x5mm
 
 
 0
-33
+37
 33
 antmicro-footprints
 LFQFN-16-1EP_3x3mm
@@ -91524,6 +92070,13 @@ LGA-28_5.2x3.8mm_BNO0055
 0
 28
 28
+antmicro-footprints
+LGA-54_22.0x17.0mm_P1.1mm
+
+
+0
+102
+55
 antmicro-footprints
 LINX_CONMMCX002-SMD-T
 
@@ -91651,6 +92204,13 @@ file:///C:/Users/alex_wegscheid/Downloads/TB6612FNG_datasheet_en_20141001%20(7).
 24
 24
 antmicro-footprints
+LT8350
+
+
+0
+36
+33
+antmicro-footprints
 LT9611
 
 
@@ -91700,6 +92260,34 @@ L_6x6mm
 2
 2
 antmicro-footprints
+L_0402_1005Metric
+Capacitor SMD 0402
+capacitor SMD 0402
+0
+2
+2
+antmicro-footprints
+L_0603_1608Metric
+
+
+0
+2
+2
+antmicro-footprints
+L_0805_2012Metric
+Inductor  SMD 0805
+inductor SMD 0805
+0
+2
+2
+antmicro-footprints
+L_0806
+
+
+0
+2
+2
+antmicro-footprints
 L_0806_2016Metric
 
 
@@ -91708,8 +92296,106 @@ L_0806_2016Metric
 2
 antmicro-footprints
 L_1008_2520Metric
-Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
+Inductor SMD 1008 (2520 Metric)
 inductor
+0
+2
+2
+antmicro-footprints
+L_1010_WE_PDF
+
+
+0
+2
+2
+antmicro-footprints
+L_1210_3225Metric
+
+
+0
+2
+2
+antmicro-footprints
+L_1716_4441Metric
+
+
+0
+2
+2
+antmicro-footprints
+L_2020_5252Metric
+
+
+0
+2
+2
+antmicro-footprints
+L_2525_6363Metric
+
+
+0
+2
+2
+antmicro-footprints
+L_4141_WE_PDF
+
+
+0
+2
+2
+antmicro-footprints
+L_Coilcraft_XAL5030
+
+
+0
+2
+2
+antmicro-footprints
+L_Coilcraft_XAL6030
+
+
+0
+2
+2
+antmicro-footprints
+L_Coilcraft_XAL7070
+
+
+0
+2
+2
+antmicro-footprints
+L_Coilcraft_XEL4030
+
+
+0
+2
+2
+antmicro-footprints
+L_Coilcraft_XFL4020
+
+
+0
+2
+2
+antmicro-footprints
+L_SRP4020
+
+
+0
+2
+2
+antmicro-footprints
+L_Vishay_IHLP1616BZ
+
+
+0
+2
+2
+antmicro-footprints
+L_Vishay_IHLP3232DZ
+
+
 0
 2
 2
@@ -91746,7 +92432,7 @@ Linear_DFN-14
 
 
 0
-15
+17
 15
 antmicro-footprints
 LivingOptics-logo-silk
@@ -91847,12 +92533,12 @@ MICROCHIP_VQFN40_LDX
 41
 41
 antmicro-footprints
-MICRON_EMMC_153
+MLF-28_5x6mm_P0.65mm
 
 
 0
-153
-153
+31
+31
 antmicro-footprints
 MOLEX_39-30-1060
 
@@ -91874,13 +92560,6 @@ MOLEX_53398-0771
 0
 9
 9
-antmicro-footprints
-MOLEX_105450-0101
-
-
-0
-28
-28
 antmicro-footprints
 MOLEX_503480-2200
 
@@ -91909,6 +92588,13 @@ MOLEX_39288080
 0
 8
 8
+antmicro-footprints
+MOLEX_455860005
+
+
+0
+10
+10
 antmicro-footprints
 MOLEX_525590652
 
@@ -91987,12 +92673,12 @@ MOLEX_1053121104
 6
 6
 antmicro-footprints
-MP2483DQ-LF-P
+MOLEX_1724480008
 
 
 0
-11
-11
+8
+8
 antmicro-footprints
 MPL-AL4020-xxx
 
@@ -92064,12 +92750,26 @@ MSAK24025P30_PLUG
 0
 0
 antmicro-footprints
+MSOP-8-1EP_3.0x3.0x1.1mm_P0.65mm
+http://www.ti.com/lit/ds/symlink/tpa2005d1-q1.pdf
+
+0
+9
+9
+antmicro-footprints
 MSOP-8-1EP_W3mm
 http://www.ti.com/lit/ds/symlink/tpa2005d1-q1.pdf
 
 0
 9
 9
+antmicro-footprints
+MSOP-8_3x3x1.1mm_P0.65mm
+
+
+0
+8
+8
 antmicro-footprints
 MSOP-8_W2.80mm
 
@@ -92155,6 +92855,62 @@ Maxim_MAX5984_TQFN-EP-28
 29
 29
 antmicro-footprints
+Mech_Adafruit_326_H6.0mm
+
+
+0
+0
+0
+antmicro-footprints
+Mech_Adafruit_4440_H6.0mm
+
+
+0
+0
+0
+antmicro-footprints
+Mech_Lightpipe_Mentor_1296.2013
+
+
+0
+0
+0
+antmicro-footprints
+Mech_M2_2230_H2.5mm
+
+
+0
+0
+0
+antmicro-footprints
+Mech_M2_2242_H2.5mm
+
+
+0
+0
+0
+antmicro-footprints
+Mech_M2_2280_H2.5mm
+
+
+0
+0
+0
+antmicro-footprints
+Mech_M2_4222_H2.5mm
+
+
+0
+0
+0
+antmicro-footprints
+Mech_M2_QuectelEM06_H2.5mm
+Mech M2 Quectel EM06 H2.5mm
+Mech M2 Quectel EM06 H2.5mm
+0
+0
+0
+antmicro-footprints
 Mechanical_pad_D4_1.8mm
 
 
@@ -92183,19 +92939,19 @@ MicroSD_2908-05WB-MG
 12
 9
 antmicro-footprints
-MicroSD_1140084168
-
-
-0
-14
-11
-antmicro-footprints
 MicroSD_693072010801
 http://katalog.we-online.de/em/datasheet/693072010801.pdf
 Micro SD Wuerth Wurth Würth
 0
 12
 9
+antmicro-footprints
+MicroSD_Amphenol_1140084168
+
+
+0
+14
+11
 antmicro-footprints
 MicroSD_DM3AT-SF-PEJM5
 Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
@@ -92204,19 +92960,33 @@ Micro SD
 14
 11
 antmicro-footprints
+MicroSD_Wurth_693071020811
+SMT MICRO SD CARD CONNECTOR
+
+0
+13
+10
+antmicro-footprints
+Microchip_QFN-32-1EP_5x5mm
+
+
+0
+37
+33
+antmicro-footprints
 Microchip_QFN24_4X4
 
 
 0
-25
+29
 25
 antmicro-footprints
 Microchip_VQFN100_EP
 
 
 0
-101
-101
+106
+102
 antmicro-footprints
 Micron_FBGA-78
 
@@ -92575,6 +93345,13 @@ https://www.sitime.com/products/datasheets/sit1533/SiT1533-datasheet.pdf
 4
 4
 antmicro-footprints
+Oscillator_SMD_Abracon_ABM7-2Pin_6x3.5mm
+
+
+0
+2
+2
+antmicro-footprints
 Oscillator_SMD_Abracon_ASFL1-4Pin_5.0x3.2mm
 
 
@@ -92582,9 +93359,51 @@ Oscillator_SMD_Abracon_ASFL1-4Pin_5.0x3.2mm
 4
 4
 antmicro-footprints
+Oscillator_SMD_Abracon_ASFLMB_5x3.2x0.85mm
+
+
+0
+4
+4
+antmicro-footprints
+Oscillator_SMD_Abracon_AX3_3.2x2.5x1mm
+
+
+0
+6
+6
+antmicro-footprints
+Oscillator_SMD_ECS_2016MV_2x1.6x0.85mm
+
+
+0
+4
+4
+antmicro-footprints
 Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm
-Miniature Crystal Clock Oscillator ECS 2520MV series, https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf
-Miniature Crystal Clock Oscillator ECS 2520MV series SMD SMT HCMOS
+Miniature Crystal Clock Oscillator ECS 2520MV series
+Crystal Clock Oscillator ECS 2520MV SMD
+0
+4
+4
+antmicro-footprints
+Oscillator_SMD_ECS_2520MV_2.5x2mm
+Miniature Crystal Clock Oscillator ECS 2520MV series
+Crystal Clock Oscillator ECS 2520MV SMD
+0
+4
+4
+antmicro-footprints
+Oscillator_SMD_ECS_ECX-1247
+
+
+0
+4
+4
+antmicro-footprints
+Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm
+
+
 0
 4
 4
@@ -92609,6 +93428,13 @@ Oscillator_XLH736022.579200I
 0
 4
 4
+antmicro-footprints
+P10XHAI203KB30
+
+
+0
+3
+3
 antmicro-footprints
 P70-1000045R
 
@@ -92652,6 +93478,34 @@ PCI EXPRESS RIGHT ANGLE ASSEMBLY.
 64
 64
 antmicro-footprints
+PCIE_PCIE-064-02-X-D-EMSX
+
+
+0
+64
+64
+antmicro-footprints
+PCIE_TE_2-2387405-2
+
+
+0
+64
+64
+antmicro-footprints
+PCIE_TE_6-1734857-5
+
+
+0
+64
+64
+antmicro-footprints
+PCIe_x16_10025026-10103TLF
+
+
+0
+164
+164
+antmicro-footprints
 PCM12SMTR
 
 
@@ -92679,13 +93533,6 @@ file:///C:/Users/chad_rosencrans/Downloads/5029.PDF
 0
 1
 1
-antmicro-footprints
-PDQE30-Q48
-
-
-0
-6
-6
 antmicro-footprints
 PDS760-13
 
@@ -92735,6 +93582,13 @@ POE300F-24LD
 0
 12
 12
+antmicro-footprints
+POT_R0141-2
+
+
+0
+3
+3
 antmicro-footprints
 POWERVDFN-8
 
@@ -92786,13 +93640,6 @@ PROBE_PAD_1206
 1
 antmicro-footprints
 PRQ75W-Q48
-
-
-0
-8
-8
-antmicro-footprints
-PSON50P100X195X50-8N
 
 
 0
@@ -92932,6 +93779,13 @@ Piezo_Transducer_THT_PS1240P02BT
 2
 2
 antmicro-footprints
+PinHeader_1x1_P2.54mm_Drill1.1mm
+PinHeader 1x1
+
+0
+1
+1
+antmicro-footprints
 PinHeader_1x2_P1.27mm_Drill.7mm
 http://cnctech.us/pdfs/3220-XX-0100-00.pdf
 
@@ -92946,8 +93800,22 @@ http://cnctech.us/pdfs/3220-XX-0100-00.pdf
 2
 2
 antmicro-footprints
+PinHeader_1x2_P1.27mm_Drill0.7mm
+http://cnctech.us/pdfs/3220-XX-0100-00.pdf
+
+0
+2
+2
+antmicro-footprints
 PinHeader_1x2_P2.5mm_Drill1.1mm
 http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+
+0
+2
+2
+antmicro-footprints
+PinHeader_1x2_P2.5mm_Drill1.1mm_Shrouded_Latch
+
 
 0
 2
@@ -92960,21 +93828,21 @@ PinHeader_1x2_P2.54_Drill0.9mm
 2
 2
 antmicro-footprints
-PinHeader_1x2_P2.54mm
-
-
-0
-2
-2
-antmicro-footprints
 PinHeader_1x2_P2.54mm_Drill1.02mm
-http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+
 
 0
 2
 2
 antmicro-footprints
 PinHeader_1x2_P2.54mm_Drill1.02mm_640456-2
+http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+
+0
+2
+2
+antmicro-footprints
+PinHeader_1x2_P2.54mm_Drill1.02mm_Latch
 http://www.molex.com/pdm_docs/sd/022232031_sd.pdf
 
 0
@@ -93079,12 +93947,33 @@ http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
 5
 5
 antmicro-footprints
+PinHeader_1x5_P2.54mm_Drill1.1mm
+Pinheader 1x5
+Pinheader 1x5
+0
+5
+5
+antmicro-footprints
+PinHeader_1x7_P2.54mm
+WR-PHD 2.54mm Pin Header, 7 Pin
+
+0
+7
+7
+antmicro-footprints
 PinHeader_1x07_P2.54mm_Vertical
 Through hole straight pin header, 1x07, 2.54mm pitch, single row
 Through hole pin header THT 1x07 2.54mm single row
 0
 7
 7
+antmicro-footprints
+PinHeader_1x8_P2.54mm_Drill1.02mm_Female
+Through hole straight female pin header, 1x8, 2.54mm pitch, single row
+Through hole female pin header THT 1x8 2.54mm single row
+0
+8
+8
 antmicro-footprints
 PinHeader_1x09_P2.54mm_Vertical
 Through hole straight pin header, 1x09, 2.54mm pitch, single row
@@ -93128,6 +94017,13 @@ PinHeader_2x1mm_P2mm_SMD_RA
 4
 2
 antmicro-footprints
+PinHeader_2x3_P2.54mm_Drill1mm
+Through hole straight male pin header, 2x3, 2.54mm pitch, double rows
+Through hole pin header male THT 2x3 2.54mm double row
+0
+6
+6
+antmicro-footprints
 PinHeader_2x3_P2.54mm_Vertical_Female
 Through hole straight female pin header, 2x3, 2.54mm pitch, double rows
 Through hole pin header Female THT 2x3 2.54mm double row
@@ -93150,7 +94046,7 @@ Through hole pin header THT 2x04 2.54mm double row
 8
 antmicro-footprints
 PinHeader_2x5_P1.27_SMD
-http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf
+
 
 0
 10
@@ -93177,6 +94073,20 @@ Through hole pin header THT 2x05 1.27mm double row
 10
 10
 antmicro-footprints
+PinHeader_2x5_P2.54mm_Drill1.1mm
+Through hole straight pin header, 2x5, 2.54mm pitch, double rows
+Through hole pin header THT 2x5 2.54mm double row
+0
+10
+10
+antmicro-footprints
+PinHeader_2x5_P2.54mm_Drill1.1mm_SMD_Shrouded
+PinHeader 2x5 P2.54mm Drill1.1mm SMD Shrouded
+PinHeader 2x5 P2.54mm Drill1.1mm SMD Shrouded
+0
+10
+10
+antmicro-footprints
 PinHeader_2x5_P2.54mm_Drill1.2mm
 http://www.on-shore.com/wp-content/uploads/2015/09/302-sxxx.pdf
 
@@ -93184,22 +94094,15 @@ http://www.on-shore.com/wp-content/uploads/2015/09/302-sxxx.pdf
 10
 10
 antmicro-footprints
-PinHeader_2x05_P2.54mm_Vertical
-Through hole straight pin header, 2x05, 2.54mm pitch, double rows
-Through hole pin header THT 2x05 2.54mm double row
+PinHeader_2x6_P2.54mm_Drill1mm
+
+
 0
-10
-10
+12
+12
 antmicro-footprints
 PinHeader_2x06_P2.54mm_Horizontal_Height_9.90mm
 TSW-106-10-G-D-RA
-
-0
-12
-12
-antmicro-footprints
-PinHeader_2x06_P2.54mm_Vertical
-
 
 0
 12
@@ -93240,9 +94143,9 @@ Molex 878321412
 14
 14
 antmicro-footprints
-PinHeader_2x08_P2.54mm_Vertical
-Through hole straight pin header, 2x08, 2.54mm pitch, double rows
-Through hole pin header THT 2x08 2.54mm double row
+PinHeader_2x8_P2.54mm_Drill1mm
+Through hole straight pin header, 2x8, 2.54mm pitch, double rows
+Through hole pin header THT 2x8 2.54mm double row
 0
 16
 16
@@ -93282,16 +94185,16 @@ PinHeader_2x15_P2.54mm_Vertical
 30
 30
 antmicro-footprints
-PinHeader_2x20_P2.54mm_Vertical
-Through hole straight pin header, 2x10, 2.54mm pitch, double rows
-Through hole pin header THT 2x10 2.54mm double row
+PinHeader_2x20_P2.54_Drill1.1mm
+
+
 0
 40
 40
 antmicro-footprints
-PinHeader_2x40_P2.54_Drill1mm
-
-
+PinHeader_2x20_P2.54mm_Drill1.1mm
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
 0
 40
 40
@@ -93345,6 +94248,13 @@ Pogo pin
 1
 1
 antmicro-footprints
+PogoPinHeader_1x1_H11.2mm_Drill0.8mm
+Spring-Loaded Pin ATTEND
+Connector
+0
+1
+1
+antmicro-footprints
 PogoPinHeader_1x1_P2mm_Drill1,5mm
 
 Pogo pin
@@ -93372,6 +94282,13 @@ Potentiometer_P120PK-Y25BR10K
 0
 5
 4
+antmicro-footprints
+PowerDI5
+
+
+0
+3
+2
 antmicro-footprints
 PowerPAK-SC-70-6
 
@@ -93440,7 +94357,7 @@ QDHVQFN14
 
 
 0
-18
+15
 15
 antmicro-footprints
 QFN-8_2x1mm
@@ -93450,7 +94367,7 @@ DFN 0.5
 8
 8
 antmicro-footprints
-QFN-10-1EP_3x3mm
+QFN-10-1EP_3x3mm_P0.5mm
 
 
 0
@@ -93463,6 +94380,20 @@ QFN-11_2x2mm_P0.5mm
 0
 11
 11
+antmicro-footprints
+QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A
+https://www.onsemi.cn/pub/Collateral/510CB.PDF
+
+0
+15
+15
+antmicro-footprints
+QFN-16_1EP_4x4mm_P0.65mm
+
+
+0
+17
+17
 antmicro-footprints
 QFN-16_EP_4x4_Pitch0.65mm
 
@@ -93541,6 +94472,20 @@ QFN DFN_QFN
 29
 25
 antmicro-footprints
+QFN-24_1EP_4x4mm_P0.5mm
+
+
+0
+25
+25
+antmicro-footprints
+QFN-28-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
+QFN, 28 Pin (https://www.cmlmicro.com/wp-content/uploads/2017/10/CMX901_ds.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+33
+29
+antmicro-footprints
 QFN-28-1EP_5x5mm_P0.5mm_EP3.75x3.75mm
 QFN, 28 Pin (https://www.cmlmicro.com/wp-content/uploads/2017/10/CMX901_ds.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -93570,17 +94515,17 @@ QFN-38-1EP_5x7mm
 39
 antmicro-footprints
 QFN-48-1EP_6x6mm
-https://www.decawave.com/sites/default/files/resources/DW1000-Datasheet-V2.12.pdf
+
 
 0
-49
+53
 49
 antmicro-footprints
 QFN-48-1EP_7x7mm
 
 
 0
-49
+58
 49
 antmicro-footprints
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm
@@ -93588,6 +94533,13 @@ QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf (Page 94)),
 QFN DFN_QFN
 0
 65
+49
+antmicro-footprints
+QFN-48-1EP_7x7x0.9mm_P0.5mm_EP5x5mm
+
+
+0
+49
 49
 antmicro-footprints
 QFN-48-1EP_8x8mm_P0.5mm_EP6.2x6.2mm_FT232HQ_marking
@@ -93604,9 +94556,16 @@ QFN-48-Microchip-QFN77-48LD-PL-2
 49
 49
 antmicro-footprints
+QFN-56-1EP_8x8mm_P0.5mm
+QFN 56 Pin
+QFN
+0
+73
+57
+antmicro-footprints
 QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm
-QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
+QFN 56 Pin
+QFN
 0
 73
 57
@@ -93616,6 +94575,13 @@ QFN-64, 9x9mm, Pitch: 0.5mm, EP: 6x6mm
 QFN NoLead
 0
 81
+65
+antmicro-footprints
+QFN-64_1EP_9x9mm_P0.5mm
+QFN 64 Pin
+QFN
+0
+74
 65
 antmicro-footprints
 QFN-64_EP_8.5x8.5_EOS
@@ -93632,11 +94598,18 @@ QFN NoLead
 85
 69
 antmicro-footprints
+QFN-68_1EP_8x8mm_P0.4mm
+
+
+0
+78
+69
+antmicro-footprints
 QFN-68_EP_8x8_Pitch0.4mm
 
 
 0
-69
+78
 69
 antmicro-footprints
 QFN-76-1EP_9x9mm_P0.4mm_EP3.8x3.8mm
@@ -93652,6 +94625,13 @@ QFN-88_EP_10x10_Pitch0.4mm
 0
 92
 89
+antmicro-footprints
+QFN24_4X4_Microchip
+
+
+0
+29
+25
 antmicro-footprints
 QFN40P700X700X100-57N
 
@@ -93835,6 +94815,20 @@ R-PDSO-N15
 15
 15
 antmicro-footprints
+R-PDSO-N15_TI
+
+
+0
+15
+15
+antmicro-footprints
+RCA_PHONO_JACK_KLPX-0848A-2-Y
+
+
+0
+2
+2
+antmicro-footprints
 RCJ-014-SMT
 
 
@@ -93968,8 +94962,50 @@ RICHTEK_13-UFQFN
 13
 13
 antmicro-footprints
+RJ45_7499111121A_Horizontal
+WE-RJ45_Transformer-10/100/1000
+
+0
+16
+15
+antmicro-footprints
+RJ45_5-2337992-8_Horizontal
+
+
+0
+20
+20
+antmicro-footprints
+RJ45_1149611
+
+
+0
+10
+9
+antmicro-footprints
+RJ45_Bel_SI-51005-F
+
+
+0
+16
+15
+antmicro-footprints
+RJ45_Bel_SS-60400-001
+
+
+0
+14
+13
+antmicro-footprints
 RJ45_Female_RB1-125BAG1A
 https://www.shopwiznet.com/index.php/lanotattachments/download/file/id/95/store/1/
+
+0
+14
+13
+antmicro-footprints
+RJ45_Wurth_615008137421
+
 
 0
 14
@@ -93996,12 +95032,68 @@ RTL8111H
 33
 33
 antmicro-footprints
+R_0201
+Resistor SMD 0201
+resistor SMD 0201
+0
+4
+2
+antmicro-footprints
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
 resistor
 0
 4
 2
+antmicro-footprints
+R_0402_1005Metric
+Resistor SMD 0402
+resistor SMD 0402
+0
+2
+2
+antmicro-footprints
+R_0402_1005Metric_EIA
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)
+resistor 0402
+0
+2
+2
+antmicro-footprints
+R_0603_1608Metric
+Resistor SMD 0603
+resistor SMD 0603
+0
+2
+2
+antmicro-footprints
+R_0805_2012Metric
+
+
+0
+2
+2
+antmicro-footprints
+R_1206_3216Metric
+
+
+0
+2
+2
+antmicro-footprints
+R_2010_5025Metric
+Resistor SMD 2010
+resistor SMD 2010
+0
+2
+2
+antmicro-footprints
+R_Array_4x0201_Panasonic_EXB18V
+
+
+0
+8
+8
 antmicro-footprints
 R_Array_4x0402
 
@@ -94086,6 +95178,13 @@ Rotary_Encoder_Switched_PEC11R
 0
 7
 6
+antmicro-footprints
+S-PAK-7
+
+
+0
+8
+8
 antmicro-footprints
 S2B-PH-K-S
 
@@ -94227,6 +95326,13 @@ SAMTEC_LSHM-140-01-L-DH-A-S-TR
 82
 82
 antmicro-footprints
+SAMTEC_PCIE-164-02-X-D-TH
+
+
+0
+164
+164
+antmicro-footprints
 SAMTEC_QSE-040-01-X-D-A
 
 
@@ -94298,13 +95404,20 @@ SAMTEC_TSM-106-01-T-SH
 6
 antmicro-footprints
 SC-70-5
-5-lead Small Outline SMT package (aka SC-88A, TSSOP5 or SOT-353)
-SC-70-5 sc70 SOT-353 sot353 SC-88A sc88a TSSOP5
+5-lead Small Outline SMT package (aka SC-70-5, SC-88A or TSSOP5): reflow soldering footprint, https://www.nxp.com/docs/en/package-information/SOT353.pdf 
+SOT-353 sot353 SC-70-5 sc70 SC-88A sc88a TSSOP5
 0
 5
 5
 antmicro-footprints
 SC-74
+https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf
+sc74 sc-74 sot23-6 sot457 tsop6 tsop-6
+0
+6
+6
+antmicro-footprints
+SC-74-6_1.5x2.9mm_P0.95mm
 https://assets.nexperia.com/documents/data-sheet/IP4220CZ6.pdf
 sc74 sc-74 sot23-6 sot457 tsop6 tsop-6
 0
@@ -94331,6 +95444,13 @@ SC70-5
 0
 5
 5
+antmicro-footprints
+SD_10067847-001RLF
+
+
+0
+13
+13
 antmicro-footprints
 SD_Holder_787231001
 
@@ -94429,6 +95549,13 @@ SIM_473080001
 0
 10
 7
+antmicro-footprints
+SIM_Micro_2822541-1
+
+
+0
+17
+17
 antmicro-footprints
 SIM_Nano_5045200691
 
@@ -94696,6 +95823,13 @@ SOD-523
 2
 2
 antmicro-footprints
+SOD-523_NP
+
+
+0
+2
+2
+antmicro-footprints
 SOD-923
 
 
@@ -94731,12 +95865,19 @@ SODIMM_DDR3_EDGE
 204
 204
 antmicro-footprints
-SODIMM_DDR4_EDGE
+SOIC-4_4.2x5.0mm_P5.7mm
 
 
 0
-260
-260
+4
+4
+antmicro-footprints
+SOIC-4_4.55x2.6mm_P1.27
+ACPL-217-500E
+Integrated Circuit
+0
+4
+4
 antmicro-footprints
 SOIC-6-5_W4.55mm
 
@@ -94752,6 +95893,20 @@ SOIC-7-8_W3.9mm
 7
 7
 antmicro-footprints
+SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm
+
+Integrated Circuit
+0
+9
+9
+antmicro-footprints
+SOIC-8-1EP_5.3x5.3x2mm_P1.27mm
+8-Pin SOIC 208-mil
+
+0
+8
+8
+antmicro-footprints
 SOIC-8-1EP_W3.9mm
 
 
@@ -94766,12 +95921,26 @@ SOIC-8-DDA0008J
 15
 9
 antmicro-footprints
-SOIC-8_W3.9mm
+SOIC-8_3.9x4.9x1.75mm_P1.27mm
 
+Integrated Circuit
+0
+8
+8
+antmicro-footprints
+SOIC-8_5.3x5.3x2mm_P1.27mm
+8-Pin SOIC 208-mil
 
 0
 8
 8
+antmicro-footprints
+SOIC-8_W3.9mm
+
+Integrated Circuit
+0
+9
+9
 antmicro-footprints
 SOIC-8_W5.3mm
 http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf
@@ -94801,7 +95970,7 @@ SOIC SO
 16
 16
 antmicro-footprints
-SOIC-16_W3.90mm
+SOIC-16_3.9x10mm
 
 
 0
@@ -94899,6 +96068,20 @@ Inductor
 24
 24
 antmicro-footprints
+SOM-24_W12.2mm_P0.8mm
+
+
+0
+24
+24
+antmicro-footprints
+SON-6_1.3X2.0mm_P0.65mm
+
+
+0
+6
+6
+antmicro-footprints
 SON50P150X150X80-6N
 
 
@@ -94926,6 +96109,20 @@ SOP-4_W3.81mm
 0
 4
 4
+antmicro-footprints
+SOP-8_3.9x5.05mm_P1.27mm
+
+
+0
+8
+8
+antmicro-footprints
+SOP2-16_7.5x10.3mm
+SOP2-16
+
+0
+16
+16
 antmicro-footprints
 SOP50P810X120-48N
 
@@ -94976,13 +96173,6 @@ SOT-23-5
 5
 5
 antmicro-footprints
-SOT-23-5-PROG
-
-
-0
-10
-5
-antmicro-footprints
 SOT-23-6
 
 
@@ -95011,6 +96201,13 @@ SOT-23s
 3
 3
 antmicro-footprints
+SOT-89-3
+
+
+0
+4
+4
+antmicro-footprints
 SOT-143-4
 http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
 
@@ -95033,7 +96230,7 @@ SOT-223-4
 4
 antmicro-footprints
 SOT-323
-https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf
+
 
 0
 3
@@ -95054,7 +96251,7 @@ SOT-363
 6
 antmicro-footprints
 SOT-416
-SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf
+SOT-416
 SOT-416
 0
 3
@@ -95088,15 +96285,22 @@ SOT-563
 6
 6
 antmicro-footprints
+SOT-583
+
+
+0
+8
+8
+antmicro-footprints
 SOT-666
-SOT666
+SOT-666
 SOT-666
 0
 6
 6
 antmicro-footprints
 SOT-723
-http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+
 
 0
 3
@@ -95108,6 +96312,13 @@ SOT-753
 0
 5
 5
+antmicro-footprints
+SOT-833-1
+
+
+0
+8
+8
 antmicro-footprints
 SOT-883
 SOT-883, https://assets.nexperia.com/documents/outline-drawing/SOT883.pdf
@@ -95298,6 +96509,13 @@ SSOP-28_W5.30mm
 28
 28
 antmicro-footprints
+SSQE48T07120-NABNG
+
+
+0
+8
+8
+antmicro-footprints
 SST-10-IRD-B130-U850
 
 
@@ -95309,7 +96527,7 @@ STM_UFDFPN8DFN8_2X3
 
 
 0
-9
+13
 9
 antmicro-footprints
 ST_Morpho_Connectors_144
@@ -95326,6 +96544,20 @@ SW_1101M2S3CQE2
 3
 3
 antmicro-footprints
+SW_B3U-1000P
+
+
+0
+2
+2
+antmicro-footprints
+SW_B3U-3000P
+
+
+0
+2
+2
+antmicro-footprints
 SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 2x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
 SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
@@ -95334,18 +96566,25 @@ SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
 4
 antmicro-footprints
 SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm
-SMD 2x-dip-switch SPST Copal_CVS-02xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
-SMD DIP Switch SPST Slide 5.9mm 232mil
+SMD 2x-dip-switch SPST Copal_CVS-02xB, Slide, row spacing 5.9 mm
+SMD DIP Switch SPST Slide 5.9mm
 0
 8
 5
 antmicro-footprints
 SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm
-SMD 3x-dip-switch SPST Copal_CVS-02xB, Slide, row spacing 5.9 mm 
+SMD 3x-dip-switch SPST Copal_CVS-03xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
 SMD DIP Switch SPST Slide
 0
 10
 7
+antmicro-footprints
+SW_DIP_SPSTx04_Slide_Copal_CVS-04xB_W5.9mm_P1mm
+SMD 4x-dip-switch SPST Copal_CVS-04xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
+SMD DIP Switch SPST Slide 5.9mm 232mil
+0
+12
+9
 antmicro-footprints
 SW_DIP_SPSTx08_Slide_Copal_CVS-08xB_W5.9mm_P1mm
 SMD 8x-dip-switch SPST Copal_CVS-08xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
@@ -95353,6 +96592,13 @@ SMD DIP Switch SPST Slide 5.9mm 232mil
 0
 20
 17
+antmicro-footprints
+SW_DPDT_CnK_JS202011JCQN_SMD
+
+
+0
+6
+6
 antmicro-footprints
 SW_DS04-254-1-01BK-SMT
 
@@ -95368,6 +96614,13 @@ SW_FSM14J
 4
 4
 antmicro-footprints
+SW_GF-126-0159
+
+
+0
+6
+6
+antmicro-footprints
 SW_SPST_4.2x2.8
 KMR211G
 SPST Button Switch
@@ -95382,8 +96635,36 @@ SMD DIP Switch SPST Slide 1.27mm
 12
 12
 antmicro-footprints
+SW_Slide_E-Switch_EG1218
+
+
+0
+3
+3
+antmicro-footprints
+SW_TL1105CF100Q
+
+TL1105CF100Q 
+0
+4
+4
+antmicro-footprints
 SW_TL3330AF260QG
 
+
+0
+4
+3
+antmicro-footprints
+SW_TL3340AF160QG
+
+
+0
+5
+4
+antmicro-footprints
+SW_Tactile_SPST_Angled_TE_1825027
+Tactile Switches, Round Actuator Style, NO, 5.74mm
 
 0
 4
@@ -95529,6 +96810,48 @@ solder jumper open
 2
 2
 antmicro-footprints
+Spacer_M5mm_H4.65mm_Samtec_JSOM-0515-01
+
+
+0
+1
+1
+antmicro-footprints
+Spacer_SMD_M2.5_H2.5mm_Wurth_9774025151
+
+
+0
+5
+1
+antmicro-footprints
+Spacer_SMD_M2.5_H4mm_Wurth_9774040151
+Spacer steel M2.5 h=4mm fi=5.1mm
+
+0
+1
+1
+antmicro-footprints
+Spacer_SMD_M2.5_H6mm_Wurth_9774060151
+
+
+0
+2
+1
+antmicro-footprints
+Spacer_SMD_M2_H1.5mm_Wurth_9774015243R
+
+
+0
+1
+1
+antmicro-footprints
+Spacer_SMD_M2_H3mm_Wurth_9774030243R
+
+
+0
+2
+1
+antmicro-footprints
 Switch_Nav_12.4x12.4mm_SMD_JS5208
 
 
@@ -95537,7 +96860,7 @@ Switch_Nav_12.4x12.4mm_SMD_JS5208
 6
 antmicro-footprints
 Switch_Slide_11.6x4mm_EG1218
-http://spec_sheets.e-switch.com/specs/P040040.pdf
+
 
 0
 3
@@ -95844,6 +97167,13 @@ TFSOP-16_W3.00mm
 16
 16
 antmicro-footprints
+TG111-MSC13LF
+
+
+0
+24
+24
+antmicro-footprints
 TL3340AF160QG
 
 
@@ -96082,6 +97412,34 @@ TPSM84209RKHx
 20
 20
 antmicro-footprints
+TP_SMD_0.75mm
+
+
+0
+1
+1
+antmicro-footprints
+TP_SMD_1.5mm
+
+
+0
+1
+1
+antmicro-footprints
+TP_SMD_1mm
+
+
+0
+1
+1
+antmicro-footprints
+TP_THT_5010
+
+Test Point
+0
+1
+1
+antmicro-footprints
 TQFN-20-1EP_5x5mm
 
 
@@ -96201,6 +97559,20 @@ TSOT23-6
 6
 6
 antmicro-footprints
+TSSOP-8_3x3mm_P0.65mm
+
+
+0
+8
+8
+antmicro-footprints
+TSSOP-8_3x4.4mm_P0.65mm
+
+
+0
+8
+8
+antmicro-footprints
 TSSOP-8_W3mm
 http://www.ti.com/lit/ds/symlink/ina333.pdf
 
@@ -96209,7 +97581,7 @@ http://www.ti.com/lit/ds/symlink/ina333.pdf
 8
 antmicro-footprints
 TSSOP-8_W4.4mm
-http://www.st.com/content/ccc/resource/technical/document/datasheet/0d/30/c2/1a/92/03/48/cb/CD00287506.pdf/files/CD00287506.pdf/jcr:content/translations/en.CD00287506.pdf
+
 
 0
 8
@@ -96244,8 +97616,8 @@ TSSOP-16-1EP_W4.40mm
 17
 antmicro-footprints
 TSSOP-16_4.4x5mm_P0.65mm
-TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO
+
+
 0
 16
 16
@@ -96292,6 +97664,13 @@ http://www.cypress.com/file/139881/download
 28
 28
 antmicro-footprints
+T_SM51625EL
+
+
+0
+24
+24
+antmicro-footprints
 Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
 Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
 tag connect programming header pogo pins
@@ -96306,7 +97685,7 @@ Tag-Connect_TC2050-IDC
 10
 10
 antmicro-footprints
-Tag-Connect_TC2050-IDC-NL
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
 
 
 0
@@ -96516,6 +97895,13 @@ Texas_DRL0008A
 8
 8
 antmicro-footprints
+Texas_DSBGA-8_1.9x0.9mm_2x4_P0.5mm
+
+
+0
+8
+8
+antmicro-footprints
 Texas_DSBGA-35
 YFF Package, 35-Pin DSBGA
 
@@ -96534,7 +97920,7 @@ Texas_RHU0056A
 
 
 0
-57
+69
 57
 antmicro-footprints
 Texas_RSW0010A
@@ -96544,11 +97930,18 @@ Texas_RSW0010A
 10
 10
 antmicro-footprints
-Texas_R_PUQFN-N12
-Texas_R_PUQFN-N12 http://www.ti.com/lit/ds/symlink/txb0104.pdf
-Texas_R_PUQFN-N12
+Texas_VSON-10-1EP_3x3mm_P0.5mm
+Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf
+Texas VSON10 3x3mm
 0
-13
+17
+11
+antmicro-footprints
+Texas_X2QFN-12_1.6x1.6mm_P0.4mm
+Texas  X2QFN, 12 Pin (http://www.ti.com/lit/ml/mpqf391c/mpqf391c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas X2QFN NoLead
+0
+12
 12
 antmicro-footprints
 Thermocouple_Connector_PCC-SMP-K
@@ -96594,7 +97987,7 @@ Trans_SOT-223-4
 3
 antmicro-footprints
 Trimpot_3.8mmx3.6mm_TC33X-2-103E
-http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+
 
 0
 3
@@ -96614,6 +98007,13 @@ UDFN-6-1EP_2x2mm_USON
 9
 7
 antmicro-footprints
+UDFN-8-3.3x1.0mm-P0.4
+
+
+0
+10
+10
+antmicro-footprints
 UDFN18
 
 
@@ -96627,6 +98027,13 @@ https://www.nordicsemi.com/eng/nordic/download_resource/62726/14/67410332/13358
 0
 62
 62
+antmicro-footprints
+UFDFN-4_1.2x1.6
+
+
+0
+5
+5
 antmicro-footprints
 UFDFN-6_1.45x1mm
 
@@ -96684,6 +98091,34 @@ UMLP-10_1.8x1.4mm
 10
 10
 antmicro-footprints
+UQFN-10_1.4x1.8x0.5mm_P0.4mm
+
+
+0
+10
+10
+antmicro-footprints
+UQFN-12_2x1.7mm_P0.4mm_Texas_RUT
+Texas_R_PUQFN-N12
+Texas_R_PUQFN-N12
+0
+13
+12
+antmicro-footprints
+UQFN-13_2x3mm_P0.5mm
+
+
+0
+13
+13
+antmicro-footprints
+UQFN-16-1.8x2.6mm_P0.4mm_Texas_RSV0016A
+https://www.ti.com/lit/ds/symlink/sn74avch4t245-ep.pdf?ts=1679484181203&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74AVCH4T245-EP%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-int-null-prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gclid%253DCjwKCAjwzuqgBhAcEiwAdj5dRvR_WgyvqqhLxMx8zfbFv2a6tg33JIMv01Bn4M1kA4JzW1nDDW7OzhoCRbkQAvD_BwE%2526gclsrc%253Daw.ds
+
+0
+16
+16
+antmicro-footprints
 UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm
 UQFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=345), generated with kicad-footprint-generator ipc_noLead_generator.py
 UQFN NoLead
@@ -96691,12 +98126,33 @@ UQFN NoLead
 50
 41
 antmicro-footprints
+URB4805YMD-30WR3
+
+
+0
+6
+6
+antmicro-footprints
 US-8
 
 
 0
 8
 8
+antmicro-footprints
+USB-3.1-Gen1_Type-A_x2_Amphenol_GSB3112311HR_Horizontal
+Ethernet Amphenol
+Ethernet Amphenol
+0
+22
+19
+antmicro-footprints
+USB-3.1-Gen2_Type-C_JAE_DX07S024JJ2_Horizontal
+
+
+0
+30
+25
 antmicro-footprints
 USB-A3-C31-D-RA-CS1
 
@@ -96747,12 +98203,33 @@ http://www.jae.com/z-en/pdf_download_exec.cfm?param=MB-0301-2E_DX07_PLUG.pdf
 32
 25
 antmicro-footprints
+USB-C_Plug_Vert_DX07VN24WA2C1568
+
+
+0
+30
+25
+antmicro-footprints
+USB-C_Receptacle_Vert_DX07S024WJ1R350
+
+
+0
+30
+25
+antmicro-footprints
 USB-C_Rugged_RA_MUSBRM1C1M0
 https://www.amphenolcanada.com/ProductSearch/Drawings/AC/MUSBRM1C1XX.pdf
 
 0
 32
 26
+antmicro-footprints
+USB-Micro-B_629105150921
+USB - micro B, USB 2.0, Connector, 5 Position Surface Mount, Right Angle; Through Hole 
+USB micro B, 2.0, connector
+0
+11
+11
 antmicro-footprints
 USB-type-C-cable-end
 
@@ -96824,6 +98301,13 @@ USB C 2.0 Type-C Receptacle SMD
 22
 18
 antmicro-footprints
+USB_C_Receptacle_Molex_10545000101
+
+
+0
+28
+25
+antmicro-footprints
 USB_Male_A_UP2-AH-1-TH
 http://www.cui.com/product/resource/up2-ah-th.pdf
 
@@ -96894,6 +98378,13 @@ usb micro receptacle
 9
 6
 antmicro-footprints
+USB_Micro_B_Female_Molex_0473460001
+http://www.molex.com/pdm_docs/sd/473460001_sd.pdf
+
+0
+11
+6
+antmicro-footprints
 USB_Micro_B_Female_Vert_1051330001
 http://www.molex.com/pdm_docs/sd/1051330001_sd.pdf
 
@@ -96943,12 +98434,19 @@ USON-8_2x3mm_P0.5mm
 9
 9
 antmicro-footprints
-USON-10_2.5x1.0mm_P0.5mm
-USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
-USON-10 2.5x1.0mm Pitch 0.5mm
+USON-10_2.5x1mm_P0.5mm
+USON-10 2.5x1mm_ Pitch 0.5mm
+USON-10 2.5x1mm Pitch 0.5mm
 0
 10
 10
+antmicro-footprints
+USON-14_3.5X1.3X0.5mm_P0.5mm
+
+
+0
+14
+14
 antmicro-footprints
 USON-20_2x4mm_P0.4mm
 USON-20 2x4mm Pitch 0.4mm http://www.ti.com/lit/ds/symlink/txb0108.pdf
@@ -96970,6 +98468,13 @@ V-QFN2030-12
 0
 12
 12
+antmicro-footprints
+VDFN-6_2.5x2mm_P0.825mm
+
+DSC1123BL5-125.0000 
+0
+6
+6
 antmicro-footprints
 VFLGA-12_2x2mm
 http://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf
@@ -97069,6 +98574,13 @@ VQFN-14
 20
 16
 antmicro-footprints
+VQFN-14-1EP_3.2x2.5mm_P0.5mm_Layout4x3
+
+
+0
+15
+15
+antmicro-footprints
 VQFN-14-HR
 
 
@@ -97077,6 +98589,13 @@ VQFN-14-HR
 14
 antmicro-footprints
 VQFN-16-1EP_3x3mm
+
+
+0
+17
+17
+antmicro-footprints
+VQFN-16-1EP_3x3mm_P0.5mm
 
 
 0
@@ -97104,7 +98623,21 @@ VQFN-20-1EP_5x5mm
 21
 21
 antmicro-footprints
+VQFN-20_5x5x1mm_P0.65mm
+
+
+0
+21
+21
+antmicro-footprints
 VQFN-24
+
+
+0
+25
+25
+antmicro-footprints
+VQFN-24-1EP_3.8x3.8x1.0mm_P0.5mm
 
 
 0
@@ -97125,11 +98658,25 @@ VQFN-32-1EP_5x5mm
 33
 33
 antmicro-footprints
+VQFN-100_1EP_12x12x0.85mm_P0.4mm
+
+
+0
+106
+102
+antmicro-footprints
 VQFN-HR
 
 
 0
 22
+18
+antmicro-footprints
+VQFN-HR-18_3.5x3.5x1mm
+
+
+0
+18
 18
 antmicro-footprints
 VSON-6_1.5x1.5mm
@@ -97153,7 +98700,21 @@ VSSOP(10)
 10
 10
 antmicro-footprints
-VSSOP-8
+VSSOP-8-1EP_3x3x1.1mm_P0.65mm
+
+
+0
+9
+9
+antmicro-footprints
+VSSOP-8_2.3x2mm_P0.5mm
+
+
+0
+8
+8
+antmicro-footprints
+VSSOP-8_3x3mm_P0.65mm
 
 
 0
@@ -97286,6 +98847,13 @@ WE_68711014522
 12
 11
 antmicro-footprints
+WE_68712414022
+<b>WR-FPC 0.5mm SMT ZIF Horizontal Top Contact, 24 Pins
+
+0
+26
+26
+antmicro-footprints
 WE_68713014522
 
 
@@ -97368,7 +98936,7 @@ SMT MICRO SD CARD CONNECTOR
 
 0
 13
-13
+10
 antmicro-footprints
 WE_629105150521
 
@@ -97447,6 +99015,13 @@ WIFI_Module_WF121-A-V2
 55
 55
 antmicro-footprints
+WLCSP-25_2.05x2.05mm_Layout5x5_P0.4x0.4mm_NSMD
+WLCSP-25 2.05x2.05mm Pitch 0.4mm NSMD
+
+0
+25
+25
+antmicro-footprints
 WQFN-16-1EP_4x4mm
 http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
 
@@ -97475,11 +99050,18 @@ WQFN-24-1EP_4x4mm
 25
 25
 antmicro-footprints
+WQFN-30_1EP_4.6x2.6mm_P0.4mm
+
+
+0
+31
+31
+antmicro-footprints
 WQFN-40_1EP_6x3mm_Pitch0.4mm_EP4.7x2.7mm
 
 
 0
-41
+47
 41
 antmicro-footprints
 WQFN-42-1EP_3.5x9mm_P0.5mm_EP2.05x7.55mm
@@ -97488,6 +99070,20 @@ WQFN NoLead
 0
 57
 43
+antmicro-footprints
+WQFN-56-1EP_5x11x1mm_P0.5mm
+
+
+0
+69
+57
+antmicro-footprints
+WSON-6-1EP_2x2mm_P0.65mm
+
+
+0
+7
+7
 antmicro-footprints
 WSON-8-1EP_4x4mm_P0.8mm_EP2.6x3mm
 WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2951-n.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -97509,6 +99105,13 @@ WSON-8_3x3mm
 0
 11
 10
+antmicro-footprints
+WSON-8_6x8x0.5mm_P1.27mm
+
+
+0
+9
+9
 antmicro-footprints
 WSON-10_4x4
 
@@ -97587,7 +99190,7 @@ X1QFN-16-1EP_2.5x2.5mm
 17
 17
 antmicro-footprints
-X2SON8
+X2SON8_1.4x1x0.32mm_P0.35mm
 
 
 0
@@ -97706,6 +99309,13 @@ XRCGB24M000F0L00R0
 4
 4
 antmicro-footprints
+XSON-8_1x1.95mm_P0.5mm
+
+
+0
+8
+8
+antmicro-footprints
 XTAL_ABM3BAIG-8.000MHZ-1Z-T
 
 
@@ -97726,6 +99336,13 @@ XTAL_ECS-.327-12.5-1210-TR
 0
 2
 2
+antmicro-footprints
+XTAL_SA324240F35HLR
+
+
+0
+4
+4
 antmicro-footprints
 Xilinx_FBG484
 Artix-7, Kintex-7 and Zynq-7000 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=271, ttps://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=281, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf#page=82, NSMD pad definition Appendix A
@@ -97763,8 +99380,8 @@ Zigbee_Module_MRF24J40MD
 12
 antmicro-footprints
 antmicro-logo
-
-
+Antmicro Logo
+Antmicro Logo
 0
 0
 0
@@ -97826,8 +99443,8 @@ antmicro-logo_scaled_20mm
 0
 antmicro-footprints
 antmicro-logo_scaled_20mm_mask
-
-
+Antmicro Logo scaled 20mm F.Mask
+Antmicro Logo scaled 20mm F.Mask
 0
 0
 0
@@ -97931,8 +99548,8 @@ jetson-nano-module-5.2H
 0
 antmicro-footprints
 jetson-orin-nx-nano-module
-3D CAD STEP model of Jetson Orin NX series and Jetson Orin Nano
-3D CAD STEP model Jetson Orin NX Jetson Orin Nano
+Jetson Orin NX series and Jetson Orin Nano
+Jetson Orin NX Jetson Orin Nano
 0
 0
 0
@@ -98085,8 +99702,8 @@ onsemi_QFNN16
 17
 antmicro-footprints
 oshw-logo
-
-
+OSHW Logo
+OSHW Logo
 0
 0
 0
@@ -98174,3 +99791,122 @@ zglue-logo
 0
 0
 0
+antmicro-hdmi-mipi-bridge-hw-footprints
+7C-24.000MBB-T
+
+
+0
+4
+4
+antmicro-hdmi-mipi-bridge-hw-footprints
+0603
+Ferrite SMD 0603
+ferrite SMD 0603
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+0603-res
+Resistor SMD 0603
+resistor SMD 0603
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+47151-1001
+
+
+0
+23
+20
+antmicro-hdmi-mipi-bridge-hw-footprints
+5051101992
+
+
+0
+21
+20
+antmicro-hdmi-mipi-bridge-hw-footprints
+9774060151
+
+
+0
+5
+1
+antmicro-hdmi-mipi-bridge-hw-footprints
+BGA-64_8x8_6.0x6.0mm
+
+
+0
+64
+64
+antmicro-hdmi-mipi-bridge-hw-footprints
+C_0402_1005Metric
+Capacitor SMD 0402
+capacitor SMD 0402
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+C_0603_1608Metric
+Capacitor SMD 0603
+capacitor 0603
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+FB_0805_2012Metric
+
+
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+R-PDSO-N15
+
+
+0
+15
+15
+antmicro-hdmi-mipi-bridge-hw-footprints
+R_0402_1005Metric
+Resistor SMD 0402
+resistor SMD 0402
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+R_0603_1608Metric
+Resistor SMD 0603
+resistor SMD 0603
+0
+2
+2
+antmicro-hdmi-mipi-bridge-hw-footprints
+SOT-23-5
+
+
+0
+5
+5
+antmicro-hdmi-mipi-bridge-hw-footprints
+SOT1069-2
+
+
+0
+9
+9
+antmicro-hdmi-mipi-bridge-hw-footprints
+Testpoint_smd_0_75mm
+
+
+0
+1
+1
+antmicro-hdmi-mipi-bridge-hw-footprints
+WE_68715014022
+
+
+0
+52
+51

@@ -246,7 +246,7 @@
   (net 144 "unconnected-(J6-Pad27)")
   (net 145 "unconnected-(J6-Pad30)")
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 00181ffd-6ee2-487f-a39b-d7988083b90b)
     (at 155.01 110.45 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -282,14 +282,14 @@
       (net 101 "Net-(C32-Pad1)") (pintype "passive") (tstamp ea2e6b21-9dab-4bb1-9e8b-7cd93de42ef8))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp b32b8ca4-c339-4ac1-8aa4-9b00d9f2add3))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 00a7434f-8b1a-4286-a38a-7af385691481)
     (at 154.6 107.25 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -327,14 +327,14 @@
       (net 112 "Net-(C50-Pad2)") (pintype "passive") (tstamp f1659baf-fb70-4d6f-8fba-4184dc535033))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp b6062568-49ea-4c76-b8d6-a2fe102d165d))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:BGA-64_8x8_6.0x6.0mm" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:BGA-64_8x8_6.0x6.0mm" (layer "F.Cu")
     (tedit 0) (tstamp 02465852-c467-48a5-b7b5-ecd6b8c0ff6e)
     (at 135.425 110.4 -90)
     (property "MPN" "TC358742XBG")
@@ -506,14 +506,14 @@
       (net 21 "Net-(C29-Pad1)") (pinfunction "VDDIO2") (pintype "power_in") (tstamp 86011088-4467-4c2f-aa7c-8fbe1850e2cc))
     (pad "H8" smd circle (at 2.275 2.275 270) (size 0.3 0.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 1eb0da0d-2ec9-4b90-b450-b2ff350b0751))
-    (model "${ANT3DMDL}/BGA-64-8x8-0.65mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/BGA-64-8x8-0.65mm.step"
       (offset (xyz -3 3 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 06f535b9-d625-47ea-8000-79344680a59e)
     (at 147.6 118.95)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -551,14 +551,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 45c15fcd-a9d2-4358-b098-fca890ccb894))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp c88d335b-44c9-4a16-8eac-739881737de0))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 07ec3ef6-c8f4-44a6-87ee-ea960878bfe0)
     (at 168.1 107.95 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -594,14 +594,14 @@
       (net 114 "/Channel 2/HDMI2_DDC_SCL_3V3") (pintype "passive") (tstamp 104f8233-9e21-426f-abbf-b9a4841f7d31))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "+3V3") (pintype "passive") (tstamp 493e5c4f-e5b1-453e-8ff1-d5c930ca953e))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp 0b3a443b-c852-4a39-a156-bdf395396546)
     (at 168.9 103.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -640,14 +640,14 @@
       (net 96 "/Channel 2/HDMI2_POWER") (pintype "passive") (tstamp 5f0f8198-b3bf-417d-9c67-0f8770f795b2))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 106 "/Channel 2/HDMI2_HPDI") (pintype "passive") (tstamp 6816da7d-523e-48d3-bdfb-e2e0f1af85cc))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 0bccb109-06e4-4872-af51-b5f77f8a9c7a)
     (at 164.2 107.25)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -685,14 +685,14 @@
       (net 110 "Net-(C48-Pad2)") (pintype "passive") (tstamp cf1055e0-35c3-47ec-9d80-0b2bff530851))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp b4c5ec80-7767-4cbe-8b06-d3e929950f02))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 0d46fd0c-f590-4f76-a08d-c76f107d7191)
     (at 155.015 109.45 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -728,14 +728,14 @@
       (net 109 "/Channel 2/CH2_AVDD33") (pintype "passive") (tstamp 177eb525-8ee6-4337-8753-b766061116b4))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp bd742f2c-6245-48e7-910b-b1c177915fcc))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:7C-24.000MBB-T" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:7C-24.000MBB-T" (layer "F.Cu")
     (tedit 5D652C7B) (tstamp 1062ea80-7e9e-4e11-8aad-7be666fba9a7)
     (at 150.5743 109.746664 -90)
     (property "MPN" "7C-27.000MBB-T")
@@ -769,14 +769,14 @@
       (net 26 "Net-(C44-Pad1)") (pinfunction "OUT") (pintype "output") (tstamp c4b4bf12-8e16-4548-b2c1-ad64d1411832))
     (pad "4" smd rect locked (at -0.946664 -1.3157 270) (size 1.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "Net-(C38-Pad1)") (pinfunction "VDD") (pintype "power_in") (tstamp b6541e0a-bb3c-4da5-b2c0-f8701b6d0b57))
-    (model "${ANT3DMDL}/TXC_7B.step"
+    (model "${KIPRJMOD}/lib/3d-models/TXC_7B.step"
       (offset (xyz 40 34.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 1328b090-8a2a-4490-9798-4994c114a917)
     (at 169.2 115.7 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -814,14 +814,14 @@
       (net 25 "CH2_1V2") (pintype "passive") (tstamp 33272a64-1b19-444a-ad03-e62fde630a26))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 4dea0537-92f3-472c-b0c4-0473675cde28))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 1651e8f5-205d-4a54-8118-df3cadc23a8e)
     (at 139.3 114.3)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -857,14 +857,14 @@
       (net 19 "Net-(C27-Pad1)") (pintype "passive") (tstamp 7220cb9f-c88a-4a39-8952-51dc0cb14f52))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 74826ee9-4404-40ae-9897-09883f05e800))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 17516ebf-014a-46db-b24a-c643463e2a1d)
     (at 123 105.4 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -901,14 +901,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 635e17fb-5ece-47e3-b953-4943ff6a7e63))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 9b6767af-69a5-4c47-8fb6-46607ee6a4ed))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp 19d01d33-408b-428f-ae23-75655fe00698)
     (at 129.4 105.4 180)
     (property "MPN" "742792096")
@@ -939,14 +939,14 @@
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp d8d45cb6-db91-4996-9234-b5abc1d737bb))
     (pad "2" smd rect locked (at 1.05 0 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "CH1_1V2") (pintype "passive") (tstamp 1223a6c9-f1ca-4500-b07b-266c9d3170ea))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT-23-5" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:SOT-23-5" (layer "F.Cu")
     (tedit 5D64D240) (tstamp 1fbd2ba5-1228-445e-be40-a96d5fe9f0d6)
     (at 168.15 119.1)
     (property "MPN" "TLV73312PDBVT")
@@ -994,14 +994,14 @@
       (net 33 "unconnected-(IC4-Pad4)") (pinfunction "NC") (pintype "no_connect") (tstamp 7eb88afd-9ff0-4a1c-ae9b-21fc4620c415))
     (pad "5" smd rect (at -0.95 -1.35) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "CH2_1V2") (pinfunction "VOUT") (pintype "power_out") (tstamp 47c61662-3087-4358-b4f8-5d867800810f))
-    (model "${ANT3DMDL}/sot23-5.step"
+    (model "${KIPRJMOD}/lib/3d-models/sot23-5.step"
       (offset (xyz 0 0 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp 1fee30f3-52df-4dc5-a239-a6f81c693ada)
     (at 142.6 112.6 -90)
     (property "MPN" "742792096")
@@ -1032,14 +1032,14 @@
       (net 5 "Net-(C4-Pad2)") (pintype "passive") (tstamp fd724c81-464f-4227-a403-24e457a4a5d5))
     (pad "2" smd rect locked (at 1.05 0 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "CH1_2V5") (pintype "passive") (tstamp 60c41159-b6d2-46f3-aec7-05a8390f7427))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 21a611f1-cea7-43aa-8c22-26b6bcaeade5)
     (at 124 110.2 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1075,14 +1075,14 @@
       (net 10 "Net-(C15-Pad1)") (pintype "passive") (tstamp 1b004b6c-3b59-4573-9990-1b56bb7b9caa))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 89762f14-7b80-4986-be7c-1c53a9a44a43))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 22969a55-5f08-4026-94ab-489502ba2efc)
     (at 163.295 114.35)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1118,14 +1118,14 @@
       (net 22 "Net-(C31-Pad1)") (pintype "passive") (tstamp 594f6613-f17e-48e3-b0c4-de1853f31bb7))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp f5336de0-a6b8-4b1b-97a7-604f50ffe5b9))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp 232241f0-8412-40e0-92b6-ddd64c3b945a)
     (at 163.79 116.15 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -1163,14 +1163,14 @@
       (net 22 "Net-(C31-Pad1)") (pintype "passive") (tstamp e456418e-0446-4a22-af56-36678c05625b))
     (pad "2" smd roundrect (at 0.7 0 270) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 112 "Net-(C50-Pad2)") (pintype "passive") (tstamp c1e9ec6f-861a-42e6-a7ef-7f1822ab56a7))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 24c9cc6f-dcbf-485c-b101-a9b3568cb9c6)
     (at 140.2 107.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -1208,14 +1208,14 @@
       (net 6 "Net-(C5-Pad2)") (pintype "passive") (tstamp 5e3eeeeb-90cb-46bd-8a6b-e25b4f264929))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp be95b956-42d0-4610-bcd1-77bf8116ec25))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:WE_68715014022" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:WE_68715014022" (layer "F.Cu")
     (tedit 605B11BC) (tstamp 2536fd33-1e51-4b88-b53e-36527354a666)
     (at 148.365 130.785 180)
     (property "MPN" "68715014022 ")
@@ -1350,14 +1350,14 @@
       (net 14 "+5V") (pinfunction "Pin_50") (pintype "passive") (tstamp 04b67f9b-66c2-4bdf-ae08-fe24ded20060))
     (pad "~" smd rect locked (at 13.56 -1.44) (size 3 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 05bf94bd-7307-452c-b439-36ff7030bfac))
     (pad "~" smd rect locked (at -14.84 -1.19) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cb0817b0-72fd-415c-b4d2-9989f7c8dd09))
-    (model "${ANT3DMDL}/68715014022.stp"
+    (model "${KIPRJMOD}/lib/3d-models/68715014022.stp"
       (offset (xyz -0.65 1.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp 26d0542b-3760-4f9a-9898-f4cd3b48bbbb)
     (at 166.5 115.55)
     (property "MPN" "742792096")
@@ -1388,14 +1388,14 @@
       (net 111 "Net-(C49-Pad2)") (pintype "passive") (tstamp 2e397ac9-f7fd-4959-9522-203599686ad3))
     (pad "2" smd rect locked (at 1.05 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "CH2_1V2") (pintype "passive") (tstamp 90bd4b09-9355-43a3-84fb-c63fb142583b))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp 27a325a1-a3ca-4486-9507-de25cd94ddcc)
     (at 166.6 112.65 -90)
     (property "MPN" "742792096")
@@ -1426,14 +1426,14 @@
       (net 103 "Net-(C47-Pad2)") (pintype "passive") (tstamp 82854da2-72a0-4d07-9538-4e19daccd972))
     (pad "2" smd rect locked (at 1.05 0 270) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "CH2_2V5") (pintype "passive") (tstamp 22845846-d31c-4446-94b5-885c00a041eb))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 2917137f-3310-4c83-bae0-d73024f99510)
     (at 143.8 106.25)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1469,14 +1469,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 8ec012fd-75fe-44e8-b933-483bc994494b))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 8ec1ecbd-2da4-4e5b-9434-211e41b42f96))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 339e5446-a1e4-4e0f-8742-9a5ddf185189)
     (at 154.985 113.45 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1512,14 +1512,14 @@
       (net 102 "Net-(C33-Pad1)") (pintype "passive") (tstamp 21e45943-aea3-4e83-a448-a5b9713640cd))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp a466ef3f-fbd5-469a-9de5-dfb0aad11c30))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 3430788c-87ea-4ca5-bdbc-37e7a8fcdb41)
     (at 129.6 111.8 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1556,14 +1556,14 @@
       (net 13 "Net-(C21-Pad1)") (pintype "passive") (tstamp b601aeff-1649-4387-9bcd-1a43cb2be330))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 12608897-e372-4ba4-900b-32b65683a053))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 36ee78cd-584d-4bf6-8853-bbd3bde15000)
     (at 139.4 102.6 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -1599,14 +1599,14 @@
       (net 84 "/Channel 1/HDMI1_DDC_SCL") (pintype "passive") (tstamp 68c54580-df61-4ff1-b37e-45f4216214b5))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "+5V") (pintype "passive") (tstamp bfbfe6eb-3c86-4533-91b3-42d8c680ea0c))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 3bb9907c-ee06-42ff-9f6b-9321236946f6)
     (at 163.79 108.44 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1642,14 +1642,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 2102449d-9e88-418c-97f9-de1b81cc160a))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 110 "Net-(C48-Pad2)") (pintype "passive") (tstamp 9ae83cff-a6d1-49b2-8449-a8a24a02b082))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp 3d2b78c9-6e96-43fb-8d0b-dda595142a5a)
     (at 166.6 108.75 90)
     (property "MPN" "742792096")
@@ -1680,14 +1680,14 @@
       (net 110 "Net-(C48-Pad2)") (pintype "passive") (tstamp f61ae4d4-67da-48bc-a89c-dce5969f9199))
     (pad "2" smd rect locked (at 1.05 0 90) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "CH2_1V2") (pintype "passive") (tstamp 6a7aa10e-e49d-4405-b4ca-ecbc5453f4d5))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 3f5f1f70-9c96-4b10-a9b6-02b57284f75e)
     (at 140.2 109.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -1725,14 +1725,14 @@
       (net 5 "Net-(C4-Pad2)") (pintype "passive") (tstamp f907ea0b-cfe8-42b2-b211-fb0ab181f38a))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 6e6d3a6e-4168-4a62-a7ee-5b5a6618a086))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603" (layer "F.Cu")
     (tedit 60776DB6) (tstamp 47d25a01-e283-42a2-b823-2effef19fc7f)
     (at 147.81 107.86 -90)
     (property "MPN" "BLM18AG601SN1D")
@@ -1768,7 +1768,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 486f247e-a933-4051-a239-7367a9d27201)
     (at 163.4 104.58 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -1804,14 +1804,14 @@
       (net 14 "+5V") (pintype "passive") (tstamp 651c04c1-18a9-4e6e-88c5-ad13a0c63cce))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp cd4c273f-5a55-4c82-8a49-7292787b0912))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT-23-5" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:SOT-23-5" (layer "F.Cu")
     (tedit 5D64D240) (tstamp 4bbfd619-c035-4be6-af68-f48047e472b2)
     (at 172.25 115.95)
     (property "MPN" "TLV73325PDBVT")
@@ -1859,14 +1859,14 @@
       (net 32 "unconnected-(IC3-Pad4)") (pinfunction "NC") (pintype "no_connect") (tstamp ee91869c-0a80-4268-b9af-d9380e7629c3))
     (pad "5" smd rect (at -0.95 -1.35) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "CH2_2V5") (pinfunction "VOUT") (pintype "power_out") (tstamp 4942f983-0fcd-4c68-bc28-833294c8d5f6))
-    (model "${ANT3DMDL}/sot23-5.step"
+    (model "${KIPRJMOD}/lib/3d-models/sot23-5.step"
       (offset (xyz 0 0 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:5051101992" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:5051101992" (layer "F.Cu")
     (tedit 0) (tstamp 4c649815-14ba-4723-ad6f-e1c61cb2addb)
     (at 161 95.9)
     (property "MPN" "5051101992")
@@ -1928,14 +1928,14 @@
       (net 143 "/Channel 2/HDMI2_HPD") (pinfunction "19") (pintype "passive") (tstamp 642f8c55-0898-47dd-a506-0b9a330948ff))
     (pad "M" smd rect locked (at 6.8 0) (size 2 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 14126efc-c886-41a8-9eb8-e32f83597521))
     (pad "M" smd rect locked (at -6.800001 0) (size 2 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 58fe9bb6-c858-479b-8c9f-ba9ab5bfeafc))
-    (model "${ANT3DMDL}/CON-Molex-505110-1992.stp"
+    (model "${KIPRJMOD}/lib/3d-models/CON-Molex-505110-1992.stp"
       (offset (xyz 0 -1.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 500f8e64-021d-49c7-9217-043504ca1939)
     (at 171.65 113.05)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -1973,14 +1973,14 @@
       (net 24 "CH2_2V5") (pintype "passive") (tstamp 3f2d0341-3c3a-4671-a096-c0322d803b82))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp ecae141e-001f-4afb-a704-68bbf5100010))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT1069-2" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:SOT1069-2" (layer "F.Cu")
     (tedit 0) (tstamp 5265224c-4894-45bf-83a6-4eed19b43571)
     (at 141.6 103.8)
     (property "MPN" "PCA9517ATP")
@@ -2033,14 +2033,14 @@
       (net 14 "+5V") (pinfunction "Vref2") (pintype "power_in") (tstamp 5b11bea7-12e5-4f78-a1b4-9b799d236f9e))
     (pad "EP" smd roundrect (at 0 0) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
       (net 2 "GND") (pinfunction "EP") (pintype "unspecified") (solder_paste_margin -0.5) (tstamp f6b367df-7d22-4db5-84b4-c3c55348f070))
-    (model "${ANT3DMDL}/SOT1069-2.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT1069-2.step"
       (offset (xyz 1 -1.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 59c60a58-8ce3-43a2-885d-8bf7f9477123)
     (at 123 110.2 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2076,14 +2076,14 @@
       (net 10 "Net-(C15-Pad1)") (pintype "passive") (tstamp 4e0b9d9b-ac3e-4747-9b84-a967acb605fa))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 4cd03885-21c6-4559-b080-408682554699))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 60c6f1d3-a1b6-4da6-9c0b-32d194ad3f2b)
     (at 139.1 106 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -2119,14 +2119,14 @@
       (net 99 "Net-(R4-Pad1)") (pintype "passive") (tstamp 368a5eb9-6eaf-48c6-a9f5-d5519d38f9f0))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 100 "/Channel 1/CH1_AVDD33") (pintype "passive") (tstamp 029b8e74-17a4-4106-84b1-eea84815997d))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp 623817ec-7ee8-4358-8abc-1055d03be0bf)
     (at 144.9 103.35)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -2165,14 +2165,14 @@
       (net 86 "/Channel 1/HDMI1_POWER") (pintype "passive") (tstamp 915c054e-33f4-4d27-8031-6e81002acd61))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 97 "/Channel 1/HDMI1_HPDI") (pintype "passive") (tstamp 11d2e9fa-b023-4ba7-83e7-c480eab6829e))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 6417b411-e346-4019-8db0-ccc193f3b20b)
     (at 143.8 104.6)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -2208,14 +2208,14 @@
       (net 85 "/Channel 1/HDMI1_DDC_SDA") (pintype "passive") (tstamp ff2d2869-c4d7-4d46-8abb-c9ed6466700b))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "+5V") (pintype "passive") (tstamp 47eb012c-8ee7-4a4d-bf73-b673b9f11fc3))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 64fb78ad-b477-4aa1-a5ec-45b9190a983a)
     (at 139.8 108.4 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2251,14 +2251,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 3af100be-cdd2-4966-b142-e6e21ae0f578))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(C5-Pad2)") (pintype "passive") (tstamp 475bb253-3cb3-4aa7-8a97-3e6b3158a318))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 661cbc38-70ac-400f-972a-f415ba83ff3a)
     (at 155.01 108.45)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2294,14 +2294,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 32e2ae63-49fa-446c-aa7d-8e1284769b72))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 112 "Net-(C50-Pad2)") (pintype "passive") (tstamp 69e236fd-4f4b-46ce-9d11-3cc19572b751))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 674e71c0-7355-4e88-9514-d15b26cd6774)
     (at 155 112.45 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2338,14 +2338,14 @@
       (net 27 "/Channel 2/CH2_REFCLK") (pintype "passive") (tstamp 07d0c99f-c5ad-4c93-95a0-45c3996e899e))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 0be03344-95c5-4f10-8524-758d69f0e4e8))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 6cef1c16-f517-458a-a5bd-e28f02696d37)
     (at 131 112.4 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2382,14 +2382,14 @@
       (net 15 "/Channel 1/CH1_REFCLK") (pintype "passive") (tstamp 9bca92af-952b-44a1-8113-940acb158c41))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 1b75bb86-51fe-421c-95db-c9b67d231e3d))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 7497592a-8c98-4d30-aa29-0a7ecdafd758)
     (at 163.79 110.85 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2425,14 +2425,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 5ca7c3ab-9f90-4496-a82b-dded5a7d459a))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 103 "Net-(C47-Pad2)") (pintype "passive") (tstamp 4d5b2ae5-daa8-4c62-a374-c90b854e1fd4))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:7C-24.000MBB-T" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:7C-24.000MBB-T" (layer "F.Cu")
     (tedit 5D652C7B) (tstamp 74a3aa59-e6dd-4a42-afc9-04f279307448)
     (at 126.575 109.7 -90)
     (property "MPN" "7C-27.000MBB-T")
@@ -2466,14 +2466,14 @@
       (net 13 "Net-(C21-Pad1)") (pinfunction "OUT") (pintype "output") (tstamp 8778773b-c1d5-443d-b02c-a79a7498e385))
     (pad "4" smd rect locked (at -0.946664 -1.3157 270) (size 1.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "Net-(C15-Pad1)") (pinfunction "VDD") (pintype "power_in") (tstamp 03e6968c-abc2-4fe9-a4b8-983989c754d6))
-    (model "${ANT3DMDL}/TXC_7B.step"
+    (model "${KIPRJMOD}/lib/3d-models/TXC_7B.step"
       (offset (xyz 40 34.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 78685c35-da59-43c6-85c0-9162d5a46f27)
     (at 145.1 108.085 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -2509,14 +2509,14 @@
       (net 104 "/Channel 1/HDMI1_DDC_SDA_3V3") (pintype "passive") (tstamp 931a7974-52db-44ad-8ed7-d6663d90832c))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "+3V3") (pintype "passive") (tstamp 9c5131d0-98ce-4b39-b8d0-806855c279e4))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 78d4e102-e613-44de-a81a-f8a5fe6cc384)
     (at 131 111.4)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -2552,14 +2552,14 @@
       (net 13 "Net-(C21-Pad1)") (pintype "passive") (tstamp 50837297-8626-49f5-bd47-c13e18c61b53))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "/Channel 1/CH1_REFCLK") (pintype "passive") (tstamp dd330273-7f26-4fdf-b28e-9cb5ec5ebce5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 8467d68f-7313-49d9-8232-bc4e5365b4d4)
     (at 171.65 119)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -2597,14 +2597,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 61b7f776-5c68-48a8-bf48-323145807863))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 16d4c17b-a6e6-4270-b06b-d80d75ce59d2))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:47151-1001" locked (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:47151-1001" locked (layer "F.Cu")
     (tedit 0) (tstamp 85922e64-1f04-4450-bebc-33380e0c7b17)
     (at 137 96 180)
     (property "MPN" "47151-1001")
@@ -2695,14 +2695,14 @@
       (net 28 "Net-(FB1-Pad2)") (pinfunction "SHIELD") (pintype "passive") (tstamp 55831c18-b5f1-42be-8575-1e41ba0d96b7))
     (pad "S" thru_hole oval locked (at 7.25 -2.600003 180) (size 1.5 3.3) (drill oval 0.9 2.7) (layers *.Cu *.Mask)
       (net 28 "Net-(FB1-Pad2)") (pinfunction "SHIELD") (pintype "passive") (tstamp 90d726a1-0cab-43b9-8e79-11eff9a60c46))
-    (model "${ANT3DMDL}/Molex_HDMI_471511001.stp"
+    (model "${KIPRJMOD}/lib/3d-models/Molex_HDMI_471511001.stp"
       (offset (xyz 0 -8 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603" (layer "F.Cu")
     (tedit 60776DB6) (tstamp 862927b8-3d55-49d2-9b65-756edad74586)
     (at 123.8 107.8 -90)
     (property "MPN" "BLM18AG601SN1D")
@@ -2738,7 +2738,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 8c3134d4-d397-4aba-a272-6aac65aeca71)
     (at 155.005 111.45)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -2774,14 +2774,14 @@
       (net 26 "Net-(C44-Pad1)") (pintype "passive") (tstamp abc8cdcb-5d67-4975-9051-97c5c178be54))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "/Channel 2/CH2_REFCLK") (pintype "passive") (tstamp 06268cca-97ac-42df-8fa2-34085b4341a4))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp 8c8f6999-b6f2-4f9c-a11b-a9b791769d12)
     (at 170.2 99.85 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -2818,14 +2818,14 @@
       (net 2 "GND") (pintype "passive") (tstamp fba082af-ece0-4f60-8845-82528739ec8c))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 29 "Net-(FB7-Pad2)") (pintype "passive") (tstamp 346d7b4e-93f5-4e09-9a14-aaa4cc3ac7c4))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 8d8cde8a-af51-4ff1-b26e-f24713ae73a3)
     (at 140.2 113)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -2863,14 +2863,14 @@
       (net 7 "Net-(C10-Pad1)") (pintype "passive") (tstamp 60d85a2e-c9af-4559-b40f-988eeb37d989))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp f7892d95-47be-47be-b818-f9db066f22c5))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 8f6f16e1-5a90-4a7a-bb2e-0147b9e41afa)
     (at 167.8 106.05)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -2906,14 +2906,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 6aa50b2f-a624-4f54-9ad7-ee46c53aa553))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 736a7e70-db2e-456c-9ec7-7d374144b5ef))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT-23-5" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:SOT-23-5" (layer "F.Cu")
     (tedit 5D64D240) (tstamp 921a51d1-dec5-4a7c-971b-6bb92ca298ea)
     (at 143.95 119.1)
     (property "MPN" "TLV73312PDBVT")
@@ -2961,14 +2961,14 @@
       (net 31 "unconnected-(IC2-Pad4)") (pinfunction "NC") (pintype "no_connect") (tstamp 23a0b9ca-8f5b-41ca-8cf0-2e69b9afc1e6))
     (pad "5" smd rect (at -0.95 -1.35) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "CH1_1V2") (pinfunction "VOUT") (pintype "power_out") (tstamp 8340a07c-24ed-4de8-96b0-005e4c220891))
-    (model "${ANT3DMDL}/sot23-5.step"
+    (model "${KIPRJMOD}/lib/3d-models/sot23-5.step"
       (offset (xyz 0 0 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 94f982c5-d869-4b9b-acd1-5422eea41cec)
     (at 131 108.4)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -3004,14 +3004,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 225b3992-4e8f-49d4-98f9-36d8aa98f750))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp 0a64a628-4e04-41f5-b316-57ac71affac8))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 951baf5e-0414-4267-9b29-6edd94f0e238)
     (at 169.15 107.95 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -3047,14 +3047,14 @@
       (net 113 "/Channel 2/HDMI2_DDC_SDA_3V3") (pintype "passive") (tstamp 24f8ea5b-ba1d-4314-8883-81aac38739db))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "+3V3") (pintype "passive") (tstamp b35f4323-1ffa-4be3-bd74-412778818fa1))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp 989adda5-0bda-4894-b435-be560ee4290d)
     (at 130.6 107.2 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -3092,14 +3092,14 @@
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp 31d1ce00-6a0b-45da-823d-02b2aa66e1dd))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp bef06727-fb21-4ccd-8fa9-98be13214e0c))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:5051101992" locked (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:5051101992" locked (layer "F.Cu")
     (tedit 0) (tstamp 98cfc96a-b826-4dde-9aae-58169cf4dbc3)
     (at 137 95.85)
     (property "MPN" "5051101992")
@@ -3161,14 +3161,14 @@
       (net 87 "/Channel 1/HDMI1_HPD") (pinfunction "19") (pintype "passive") (tstamp 4becfe99-8235-4d71-9cef-3400ace2894a))
     (pad "M" smd rect locked (at -6.800001 0) (size 2 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e8990204-281c-4b9d-bb2c-9cdbdec13c9f))
     (pad "M" smd rect locked (at 6.8 0) (size 2 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fe9655e6-2314-446b-85a7-c42c9943cea8))
-    (model "${ANT3DMDL}/CON-Molex-505110-1992.stp"
+    (model "${KIPRJMOD}/lib/3d-models/CON-Molex-505110-1992.stp"
       (offset (xyz 0 -1.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
   )
 
-  (footprint "antmicro-footprints:R-PDSO-N15" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:R-PDSO-N15" (layer "F.Cu")
     (tedit 5D9EF6A7) (tstamp 9925c1a1-05aa-4c9a-9157-0e4ddf141689)
     (at 135.25 102.575)
     (property "MPN" "TPD8S009DSMR")
@@ -3221,14 +3221,14 @@
       (net 130 "unconnected-(U2-Pad14)") (pinfunction "NC") (pintype "no_connect") (tstamp b32c27ff-636e-4113-a7d3-a003cba03aa8))
     (pad "15" smd rect locked (at -1.5 -0.1) (size 0.3 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 8083cab4-6b30-4150-a8d1-fa478c5cd628))
-    (model "${ANT3DMDL}/R-PDSO-N15.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/R-PDSO-N15.STEP"
       (offset (xyz -2.75 -1.65 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp 9ea1145f-f428-4700-91ab-863c630a033b)
     (at 146.2 99.8 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -3265,14 +3265,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 0abf119d-9b61-42db-9ede-1ce2bbb9a583))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 28 "Net-(FB1-Pad2)") (pintype "passive") (tstamp 8b2ad60d-7d4d-4521-8d0a-e94a374bd42c))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp a278774e-a6b5-461a-9797-abe4621f6806)
     (at 164.2 109.65)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -3310,14 +3310,14 @@
       (net 103 "Net-(C47-Pad2)") (pintype "passive") (tstamp dfa81edb-c487-48d2-8df5-00dcdcf05907))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 76cf3b53-6955-41b9-ae6e-c8dc86842567))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp a2bf89be-f586-4b70-9e12-f24b9ea47777)
     (at 147.35 113.05)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -3355,14 +3355,14 @@
       (net 11 "CH1_2V5") (pintype "passive") (tstamp ab2b7de8-aa6a-41c2-8292-f574d4fd39f8))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 5425f48d-1382-4ba7-93d2-afc301fedfc9))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp a55d9303-15ec-4a48-80fc-2a515387e986)
     (at 163.105 106.05 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -3398,14 +3398,14 @@
       (net 108 "Net-(R17-Pad1)") (pintype "passive") (tstamp db376f58-92ec-478c-9acd-6e224db74f33))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 109 "/Channel 2/CH2_AVDD33") (pintype "passive") (tstamp 887cef9c-c229-4766-9a33-951563ef538b))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp a685cd94-e9cc-45ba-a170-983ee5a8d72a)
     (at 142.6 108.7 90)
     (property "MPN" "742792096")
@@ -3436,14 +3436,14 @@
       (net 6 "Net-(C5-Pad2)") (pintype "passive") (tstamp 344e499d-adce-49f7-8686-813b1585ad5a))
     (pad "2" smd rect locked (at 1.05 0 90) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "CH1_1V2") (pintype "passive") (tstamp 424ef727-610c-4fb6-a372-13d276ef5e07))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp aa620523-17be-4296-9571-0a6d254782a6)
     (at 144.9 101.85)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -3481,14 +3481,14 @@
       (net 86 "/Channel 1/HDMI1_POWER") (pintype "passive") (tstamp 9e989481-41d7-42cc-9d6e-c444acab74f6))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 87 "/Channel 1/HDMI1_HPD") (pintype "passive") (tstamp 13df6540-3150-4f13-bc08-68d5f1836dea))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp ad1b4b07-8c50-47da-ad0f-31d791059521)
     (at 165.5 119.95 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -3526,14 +3526,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 2434909d-0a4a-49e7-bb31-86b1db4d2658))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 2a45e076-2e82-4828-a233-0a9fe7ecb925))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp ae00a7aa-90f3-4399-861c-4d09b5a8472a)
     (at 144.1 108.085 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -3569,14 +3569,14 @@
       (net 105 "/Channel 1/HDMI1_DDC_SCL_3V3") (pintype "passive") (tstamp 416d855d-87c2-41bc-9d60-b552f378e05a))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "+3V3") (pintype "passive") (tstamp 8258c912-7144-4fab-a49e-d13e5bcdfa09))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp afc217c3-f066-4123-9264-cdca589344f2)
     (at 145.2 115.7 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -3614,14 +3614,14 @@
       (net 12 "CH1_1V2") (pintype "passive") (tstamp aab8acf5-b61e-47c2-afc5-61fa60b7413e))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 20679222-8aeb-4166-aedc-feaa0d81ab7a))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT-23-5" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:SOT-23-5" (layer "F.Cu")
     (tedit 5D64D240) (tstamp b4eac852-ff03-4cc4-a6c5-171183f28665)
     (at 148.25 115.95)
     (property "MPN" "TLV73325PDBVT")
@@ -3669,14 +3669,14 @@
       (net 30 "unconnected-(IC1-Pad4)") (pinfunction "NC") (pintype "no_connect") (tstamp 57d6a2b1-663c-4fdb-bc36-8150a3670b28))
     (pad "5" smd rect (at -0.95 -1.35) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "CH1_2V5") (pinfunction "VOUT") (pintype "power_out") (tstamp cc34e000-9469-4ffa-9c74-5c5619b1864d))
-    (model "${ANT3DMDL}/sot23-5.step"
+    (model "${KIPRJMOD}/lib/3d-models/sot23-5.step"
       (offset (xyz 0 0 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:SOT1069-2" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:SOT1069-2" (layer "F.Cu")
     (tedit 0) (tstamp b880e830-c8e8-4881-9f36-6ad06d2d88b4)
     (at 165.6 103.85)
     (property "MPN" "PCA9517ATP")
@@ -3729,14 +3729,14 @@
       (net 14 "+5V") (pinfunction "Vref2") (pintype "power_in") (tstamp e664c2e5-9359-48bd-aaf4-028d4a2877ca))
     (pad "EP" smd roundrect (at 0 0) (size 1.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
       (net 2 "GND") (pinfunction "EP") (pintype "unspecified") (solder_paste_margin -0.5) (tstamp ca02d0d8-daa8-4014-9247-6b4addf0232c))
-    (model "${ANT3DMDL}/SOT1069-2.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT1069-2.step"
       (offset (xyz 1 -1.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (footprint "antmicro-footprints:antmicro-logo_scaled_20mm_mask" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:antmicro-logo_scaled_20mm_mask" (layer "F.Cu")
     (tedit 60C1099C) (tstamp bc97af60-e08d-458c-ba02-aeedc0484efc)
     (at 178.5 108.25 -90)
     (attr exclude_from_pos_files exclude_from_bom)
@@ -4902,7 +4902,7 @@
       ) (layer "F.Mask") (width 0.00186) (fill solid) (tstamp ecbef089-e035-43b4-a8ab-c3613b513ad1))
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp c015716e-f0b3-465d-908a-48c093790602)
     (at 147 110.25 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -4938,14 +4938,14 @@
       (net 23 "Net-(C38-Pad1)") (pintype "passive") (tstamp 4ce8c50c-1132-469d-b461-22cf2d4fa998))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 0db4f8bb-1e12-449c-b636-e23c4116ade6))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp c20695ba-f516-4259-8658-f93ea4467804)
     (at 142.5 115.5)
     (property "MPN" "742792096")
@@ -4976,14 +4976,14 @@
       (net 7 "Net-(C10-Pad1)") (pintype "passive") (tstamp 8d6a6bf5-0087-4192-936c-d6b5538cda69))
     (pad "2" smd rect locked (at 1.05 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "CH1_1V2") (pintype "passive") (tstamp 06f51d5e-04d9-4a30-af54-f9f89af106f7))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp c22175a3-3500-4e79-800b-7727920a93a7)
     (at 139.4 104.52 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5019,14 +5019,14 @@
       (net 14 "+5V") (pintype "passive") (tstamp d1f724d7-6bbf-43cc-b020-86a08aa9436a))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp fd98cf83-d339-4193-9c1c-c4284aa38fb0))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp c5252bd4-359d-4943-8b42-2eeae2270885)
     (at 131 110.4 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5062,14 +5062,14 @@
       (net 20 "Net-(C28-Pad1)") (pintype "passive") (tstamp f9ec92c0-418c-4cce-b62f-705814c9eae7))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 92181c7f-bc9b-4bcb-9169-db74724f0de1))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp cc0fd8f2-938c-4cf5-b794-f25d4f623fb9)
     (at 147 105.45 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5105,14 +5105,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 33922131-171d-4bc2-8660-8ae363412fa2))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 726b4391-0832-41a3-8043-c6ab26c1be90))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp cdb3ca2b-a71d-4199-85a6-738ce1e19884)
     (at 168.9 101.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -5150,14 +5150,14 @@
       (net 96 "/Channel 2/HDMI2_POWER") (pintype "passive") (tstamp 5a5550aa-d5b4-4c24-b9d2-5d9b22642488))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 143 "/Channel 2/HDMI2_HPD") (pintype "passive") (tstamp 605bb8d9-54ee-4fcc-a4ee-eccbc25fda24))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp cfc567ef-b537-4a5f-a6b4-2df25451d40f)
     (at 163.79 111.84 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5193,14 +5193,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 2d5c82b3-919e-45c6-8832-97a4a5f2bb6a))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 111 "Net-(C49-Pad2)") (pintype "passive") (tstamp c553f8c1-ed4b-485b-b841-3929bf698166))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp d6aef155-8ab2-4938-b276-2ce0cfbc80c4)
     (at 141.3 119.9 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -5238,14 +5238,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 88b762c3-5b33-4d78-83f6-aa14c22e8c24))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp 3d960315-4cef-464a-8f41-f04362b8a6ad))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp d784d298-3ec1-4e79-977c-d2373c40aa7e)
     (at 139.8 111.8 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5281,14 +5281,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 1c7787a6-2cdd-4140-b91a-f34d601a7594))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "Net-(C10-Pad1)") (pintype "passive") (tstamp b0151236-4153-42f8-8a42-824bca9419ba))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp d7cd5ae5-a2d8-4ee5-b7f4-8ac99b60b91b)
     (at 139.8 110.8 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5324,14 +5324,14 @@
       (net 2 "GND") (pintype "passive") (tstamp 09e0adea-14ff-4340-9bd2-e75d5a36dc5e))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "Net-(C4-Pad2)") (pintype "passive") (tstamp ed1ff6cc-b21b-4b56-ad3a-ac415ce873d6))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp e27f4f33-252f-47a9-8cb6-41733df044ba)
     (at 148.01 110.25 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5367,14 +5367,14 @@
       (net 23 "Net-(C38-Pad1)") (pintype "passive") (tstamp 5f6e95e6-b302-49d3-8617-1cbe594da6c8))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 3c73ffa5-6878-4e2a-815b-9bf33fbf9f2f))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp e4cdf40d-3a9a-47ac-814b-75278935e13d)
     (at 124 105.4 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5410,14 +5410,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 7c7d2664-697a-40de-8e42-1651789091e9))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp c0089519-3ae9-42e9-bd60-740a0b47b131))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp e513a1ce-08ac-4cac-ab91-30798785bf80)
     (at 131 113.4 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5453,14 +5453,14 @@
       (net 21 "Net-(C29-Pad1)") (pintype "passive") (tstamp 3666ca8e-d1c4-4ad1-9bc7-590397bfd0ac))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp c4a008fd-1496-4297-af38-33a0ecbb8750))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp e696cfca-cd4c-45eb-b022-6a281fc54551)
     (at 153.6 111.855 -90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5497,14 +5497,14 @@
       (net 26 "Net-(C44-Pad1)") (pintype "passive") (tstamp 7b335e69-8a5d-4251-8f77-374bad0d51be))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp aee08009-8638-4882-8cbc-4f9f8a86788e))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0805-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0805-res" (layer "F.Cu")
     (tedit 5D5D3F54) (tstamp e6e5620c-18c9-4643-9c0a-5160c0456057)
     (at 153.4 105.45 180)
     (property "MPN" "742792096")
@@ -5535,14 +5535,14 @@
       (net 112 "Net-(C50-Pad2)") (pintype "passive") (tstamp 6d12978f-5270-4823-b5eb-8a344a5f46f5))
     (pad "2" smd rect locked (at 1.05 0 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "CH2_1V2") (pintype "passive") (tstamp 6fff145c-c87d-4895-a589-316e9b7e2851))
-    (model "${ANT3DMDL}/0805-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0805-res.step"
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:OSHW-Symbol_6.7x6mm_Mask" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:OSHW-Symbol_6.7x6mm_Mask" (layer "F.Cu")
     (tedit 5E4A9409) (tstamp e6effebe-01f5-461b-8be3-12aa5d265e38)
     (at 178.75 123 -90)
     (descr "Open Source Hardware Symbol")
@@ -5897,7 +5897,7 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp c371619e-8154-441b-9684-99a872738f67))
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp efad76b1-24e2-4330-a536-ca7e2f7c3b79)
     (at 131 109.4 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5933,14 +5933,14 @@
       (net 100 "/Channel 1/CH1_AVDD33") (pintype "passive") (tstamp 7244f0a6-3b14-425b-b9fd-29bf257829fd))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 17751dfd-b168-4c4c-b3ed-3f755e3fd963))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "F.Cu")
     (tedit 616D63CF) (tstamp f02b01a6-274e-49c5-b1db-c6a7c3f50908)
     (at 148 105.45 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -5977,14 +5977,14 @@
       (net 9 "+3V3") (pintype "passive") (tstamp 178a5dc2-0b24-4928-96fb-5a01ac9666ca))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp ca9537ec-e1cc-4b97-98ae-199377636c49))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp f1e2bfd1-ca68-4466-9440-5cd78142c1e1)
     (at 163.4 102.655 -90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6020,14 +6020,14 @@
       (net 141 "/Channel 2/HDMI2_DDC_SCL") (pintype "passive") (tstamp cdbd4c9c-67be-4a5a-83e7-0c98cee8c50f))
     (pad "2" smd roundrect locked (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "+5V") (pintype "passive") (tstamp 442e6bb8-3333-43ef-a8a4-38f14baca1d5))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:BGA-64_8x8_6.0x6.0mm" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:BGA-64_8x8_6.0x6.0mm" (layer "F.Cu")
     (tedit 0) (tstamp f3d2b6a6-a2e3-4e17-a0d1-edc5c75bbf26)
     (at 159.425 110.45 -90)
     (property "MPN" "TC358742XBG")
@@ -6199,14 +6199,14 @@
       (net 102 "Net-(C33-Pad1)") (pinfunction "VDDIO2") (pintype "power_in") (tstamp ce94ca61-fd43-45dd-902a-6713c68dba1d))
     (pad "H8" smd circle (at 2.275 2.275 270) (size 0.3 0.3) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp a4e08bd0-dafa-48a4-8918-102f45fc04c8))
-    (model "${ANT3DMDL}/BGA-64-8x8-0.65mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/BGA-64-8x8-0.65mm.step"
       (offset (xyz -3 3 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (footprint "antmicro-footprints:47151-1001" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:47151-1001" (layer "F.Cu")
     (tedit 0) (tstamp f5d73635-cdd4-4612-a52a-aa28918619ae)
     (at 161 96.025 180)
     (property "MPN" "47151-1001")
@@ -6297,14 +6297,14 @@
       (net 29 "Net-(FB7-Pad2)") (pinfunction "SHIELD") (pintype "passive") (tstamp 887715fb-57ed-4d84-b603-70fbc314bf18))
     (pad "S" thru_hole oval locked (at 7.25 3.359998 180) (size 1.5 2.3) (drill oval 0.9 1.7) (layers *.Cu *.Mask)
       (net 29 "Net-(FB7-Pad2)") (pinfunction "SHIELD") (pintype "passive") (tstamp d7bd760c-0af9-4c51-81a6-309f2f3e2a1d))
-    (model "${ANT3DMDL}/Molex_HDMI_471511001.stp"
+    (model "${KIPRJMOD}/lib/3d-models/Molex_HDMI_471511001.stp"
       (offset (xyz 0 -8 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-cap" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp f68b0705-016c-45bf-8c65-6aa4f813a24c)
     (at 164.2 113.05)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -6342,14 +6342,14 @@
       (net 111 "Net-(C49-Pad2)") (pintype "passive") (tstamp 509d7d41-8aa6-403f-84d5-89f6069be13c))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "GND") (pintype "passive") (tstamp f75c7ffd-7036-4ad7-99f5-11251512d210))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:R-PDSO-N15" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:R-PDSO-N15" (layer "F.Cu")
     (tedit 5D9EF6A7) (tstamp f70097e5-85a2-4478-9a38-a33f3366632e)
     (at 159.25 102.625)
     (property "MPN" "TPD8S009DSMR")
@@ -6402,14 +6402,14 @@
       (net 138 "unconnected-(U5-Pad14)") (pinfunction "NC") (pintype "no_connect") (tstamp 56c2a36e-7a63-4d3a-b578-541c01f39af7))
     (pad "15" smd rect locked (at -1.5 -0.1) (size 0.3 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp e47e91b1-7cab-4d8b-a197-5d44175466eb))
-    (model "${ANT3DMDL}/R-PDSO-N15.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/R-PDSO-N15.STEP"
       (offset (xyz -2.75 -1.65 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "F.Cu")
     (tedit 5D5D3E92) (tstamp faa91efb-0a01-4b5c-b9ec-06843575fcf4)
     (at 139.8 116.1 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -6447,14 +6447,14 @@
       (net 19 "Net-(C27-Pad1)") (pintype "passive") (tstamp b4bfe411-a371-461c-b642-b0045016d619))
     (pad "2" smd roundrect (at 0.7 0 270) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 8 "Net-(C11-Pad1)") (pintype "passive") (tstamp 0fc4ee66-4f61-4003-b818-13febe148d6d))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "F.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp fca6e5ee-88e2-456e-b4bb-38b9fbd08edf)
     (at 167.805 104.65)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6490,14 +6490,14 @@
       (net 142 "/Channel 2/HDMI2_DDC_SDA") (pintype "passive") (tstamp 479f6d0c-ff2d-45dc-b26b-bc62e0e0a18e))
     (pad "2" smd roundrect locked (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "+5V") (pintype "passive") (tstamp 94efad9f-95ab-45a9-9f1f-b34ca1c96668))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp 02b43dc0-82db-4b6f-a6ea-bae92da61201)
     (at 131.4 115 180)
     (property "Sheetfile" "channel1.kicad_sch")
@@ -6516,7 +6516,7 @@
       (net 116 "Net-(TP2-Pad1)") (pintype "passive") (tstamp 5bec0bdb-af3c-49a3-9965-cbf99a8f5f27))
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp 051ca729-0622-423f-b775-d6b891568930)
     (at 154.7 113.65 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -6554,14 +6554,14 @@
       (net 102 "Net-(C33-Pad1)") (pintype "passive") (tstamp d30a8192-d1bd-44f5-adb3-eb7edc08dd61))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 9 "+3V3") (pintype "passive") (tstamp c5195ba4-f66a-40e0-a237-334142307209))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "B.Cu")
     (tedit 616D63CF) (tstamp 07f52f7b-61df-4f28-9d01-494086ff28a6)
     (at 139.8 110.1)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -6597,14 +6597,14 @@
       (net 4 "Net-(C3-Pad1)") (pintype "passive") (tstamp 603ebedf-0a04-437e-adbb-a842057c5b36))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 133f67dc-6c89-44a1-b5d9-8618847ed8f5))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp 0880d2f0-0a4c-43f3-b201-fc86c48c8b5b)
     (at 131.4 116.2 180)
     (property "Sheetfile" "channel1.kicad_sch")
@@ -6623,7 +6623,7 @@
       (net 115 "Net-(TP1-Pad1)") (pintype "passive") (tstamp 9705a513-1fe9-479a-9f5f-657f46331803))
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp 0ccc5304-e1d1-4813-806a-e9aad57678bf)
     (at 155.4 116.2508 180)
     (property "Sheetfile" "channel2.kicad_sch")
@@ -6642,7 +6642,7 @@
       (net 119 "Net-(TP5-Pad1)") (pintype "passive") (tstamp 5126e592-2b02-418f-8e05-b526eaff921a))
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "B.Cu")
     (tedit 5FD9C158) (tstamp 183a7f6d-339d-48d8-8433-4ab5d7363937)
     (at 131.1 112.2 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6678,14 +6678,14 @@
       (net 98 "/Channel 1/CH1_~{RST}") (pintype "passive") (tstamp cf245b6a-abbe-4c70-9420-04a1e058c513))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 9 "+3V3") (pintype "passive") (tstamp 93ee96be-11cc-4951-9303-4e8fa423e97f))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp 2a0bbf10-e967-41fc-b48e-a872011bfa9f)
     (at 167.7 102.4508 180)
     (property "Sheetfile" "channel2.kicad_sch")
@@ -6704,7 +6704,7 @@
       (net 122 "Net-(TP8-Pad1)") (pintype "passive") (tstamp 188ceeba-8ece-4ba6-a9e2-92367230f057))
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "B.Cu")
     (tedit 616D63CF) (tstamp 2ff22b61-55fe-4bb1-8eed-2565ac0b7bec)
     (at 163.8 108.15)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -6740,14 +6740,14 @@
       (net 16 "Net-(C24-Pad1)") (pintype "passive") (tstamp 030fb6a7-2a6e-4712-9cb6-322d24349a28))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 1134604e-3cfd-4d7e-9e22-f7314fb7e9e3))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "B.Cu")
     (tedit 616D63CF) (tstamp 3387859a-7a6e-468d-b708-ec5642e3e0e6)
     (at 163.8 109.15)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -6783,14 +6783,14 @@
       (net 17 "Net-(C25-Pad1)") (pintype "passive") (tstamp c2c1ea41-5fd7-47a4-919e-87af722d943e))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp d34e5747-197d-4511-be00-e3066c18bfb4))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp 494bf04e-fc5c-44fa-9d03-84752ea5b267)
     (at 154.8 110.9 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -6828,14 +6828,14 @@
       (net 101 "Net-(C32-Pad1)") (pintype "passive") (tstamp 4e4107ee-5723-42db-ba57-647ffb83a1c1))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 9 "+3V3") (pintype "passive") (tstamp 0e517a54-e6a2-4d6c-9024-f9985821d418))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp 6079ef49-4865-4dc6-8560-34c0f73c356b)
     (at 130.3 103.1 180)
     (property "Sheetfile" "channel1.kicad_sch")
@@ -6854,7 +6854,7 @@
       (net 117 "/Channel 1/HDMI1_HPDO") (pintype "passive") (tstamp 98312233-53c9-4262-89c5-837bf6e57647))
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "B.Cu")
     (tedit 616D63CF) (tstamp 60948f7e-6008-409d-940e-63ceee258fca)
     (at 139.8 109.1)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -6890,14 +6890,14 @@
       (net 3 "Net-(C2-Pad1)") (pintype "passive") (tstamp a890d234-8bbb-4b0e-800f-de9694aaf31e))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 9ea28488-fdb6-4deb-ae84-a697a747588a))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-res" (layer "B.Cu")
     (tedit 5FD9C158) (tstamp 6750956e-aecb-432e-8847-8dc359f0e397)
     (at 155.1 112.25 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -6933,14 +6933,14 @@
       (net 107 "/Channel 2/CH2_~{RST}") (pintype "passive") (tstamp 06bc028d-d912-4ed9-8c4d-daff9344d371))
     (pad "2" smd roundrect locked (at 0.485 0 180) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 9 "+3V3") (pintype "passive") (tstamp 20a3b2b8-eda1-4d0d-a770-426b1308a0fb))
-    (model "${ANT3DMDL}/0402-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-res.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:9774060151" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:9774060151" (layer "B.Cu")
     (tedit 61168484) (tstamp 95f52419-99c9-43d8-aa25-bbd0e895ce2d)
     (at 179 131 180)
     (property "MPN" "9774060151")
@@ -6959,14 +6959,14 @@
     )
     (pad "1" thru_hole circle locked (at 0 0 180) (size 6 6) (drill 3.7) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp e2763aa4-6184-4fe6-ab19-ce2470e0bff8))
-    (model "${ANT3DMDL}/9774060151.stp"
+    (model "${KIPRJMOD}/lib/3d-models/9774060151.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "B.Cu")
     (tedit 616D63CF) (tstamp 9cb4dbfa-0166-48fa-8763-5f8e5a0ec70d)
     (at 139.8 108.1)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -7002,14 +7002,14 @@
       (net 1 "Net-(C1-Pad1)") (pintype "passive") (tstamp 74b27a36-5c61-490e-b12b-defd9898632c))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 225c690a-95e6-492c-aeea-3735757c7844))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp af291622-fbc8-4fd7-85e6-a0269e1efbd0)
     (at 154.3 103.1 180)
     (property "Sheetfile" "channel2.kicad_sch")
@@ -7028,7 +7028,7 @@
       (net 121 "/Channel 2/HDMI2_HPDO") (pintype "passive") (tstamp 92fa3053-2c64-42ec-8cb2-eb642481ba8f))
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp bdc18751-72bb-451b-86b9-c8b51400c7b2)
     (at 130.7 113.6 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -7066,14 +7066,14 @@
       (net 21 "Net-(C29-Pad1)") (pintype "passive") (tstamp 45f43aa2-5f79-4cf0-83b9-c3001ef1e8ea))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 9 "+3V3") (pintype "passive") (tstamp 563bca24-a63c-4c24-b337-fdb858bd68e4))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:9774060151" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:9774060151" (layer "B.Cu")
     (tedit 61168484) (tstamp bef77a44-c765-4f53-9d6e-a014091a40ac)
     (at 119 94 180)
     (property "MPN" "9774060151")
@@ -7092,14 +7092,14 @@
     )
     (pad "1" thru_hole circle locked (at 0 0 180) (size 6 6) (drill 3.7) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 6205671b-c1f3-4bbd-b200-dff7cf38e5ca))
-    (model "${ANT3DMDL}/9774060151.stp"
+    (model "${KIPRJMOD}/lib/3d-models/9774060151.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp cd6ce985-4444-4514-bfb2-28e425d94be7)
     (at 130.8 110.9 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -7137,14 +7137,14 @@
       (net 20 "Net-(C28-Pad1)") (pintype "passive") (tstamp 659028d1-c5de-4112-9e10-0368b2e9783d))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 9 "+3V3") (pintype "passive") (tstamp 41b498bc-305a-4ae8-b412-573a7614052e))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:9774060151" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:9774060151" (layer "B.Cu")
     (tedit 61168484) (tstamp cfb8b24c-d8f2-46ee-b1a0-17be8a2e8672)
     (at 179 94 180)
     (property "MPN" "9774060151")
@@ -7163,14 +7163,14 @@
     )
     (pad "1" thru_hole circle locked (at 0 0 180) (size 6 6) (drill 3.7) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 0fe02e85-fe75-4eb2-b568-ca0f762fa4c9))
-    (model "${ANT3DMDL}/9774060151.stp"
+    (model "${KIPRJMOD}/lib/3d-models/9774060151.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:9774060151" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:9774060151" (layer "B.Cu")
     (tedit 61168484) (tstamp d30ed502-23f0-4380-a121-1e8e9d8544ef)
     (at 119 131 180)
     (property "MPN" "9774060151")
@@ -7189,14 +7189,14 @@
     )
     (pad "1" thru_hole circle locked (at 0 0 180) (size 6 6) (drill 3.7) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 0c2cac07-01d8-47d9-aabb-d10040da61f0))
-    (model "${ANT3DMDL}/9774060151.stp"
+    (model "${KIPRJMOD}/lib/3d-models/9774060151.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp d46c3f2d-9cf2-4db6-b8b0-784aa81cfd8c)
     (at 155.4 115.0508 180)
     (property "Sheetfile" "channel2.kicad_sch")
@@ -7215,7 +7215,7 @@
       (net 120 "Net-(TP6-Pad1)") (pintype "passive") (tstamp e1550b3f-cb3d-44fd-8d6a-884ebe0c9753))
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp d6d6a9e7-0979-43a1-8110-638797a46ef8)
     (at 130.8 109.4 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -7253,14 +7253,14 @@
       (net 100 "/Channel 1/CH1_AVDD33") (pintype "passive") (tstamp ee0333c5-96ce-4d5a-8487-0cd69757d434))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 9 "+3V3") (pintype "passive") (tstamp de764d54-64cb-4845-b05c-9bc453f68810))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:Testpoint_smd_0_75mm" (layer "B.Cu")
     (tedit 5E4A9375) (tstamp dd11323e-ce84-4f48-b31d-bc07f1e82e85)
     (at 143.7 102.4008 180)
     (property "Sheetfile" "channel1.kicad_sch")
@@ -7279,7 +7279,7 @@
       (net 118 "Net-(TP4-Pad1)") (pintype "passive") (tstamp 0fcc6d0d-65d0-42eb-b5fb-e068816a265f))
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp e9309d49-db98-4b65-9bed-c28cb5fccbed)
     (at 154.8 109.45 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -7317,14 +7317,14 @@
       (net 109 "/Channel 2/CH2_AVDD33") (pintype "passive") (tstamp cd50dce6-5f40-4cfe-8844-47a94fbddaaa))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 9 "+3V3") (pintype "passive") (tstamp 4c8cb0ec-178b-41ab-b72c-5992ba2fed68))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:0402-cap" (layer "B.Cu")
+  (footprint "antmicro-hdmi-mipi-bridge-hw-footprints:0402-cap" (layer "B.Cu")
     (tedit 616D63CF) (tstamp fed9ca3a-4c38-44d2-93ca-fb142f8836f1)
     (at 163.8 110.15)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
@@ -7360,7 +7360,7 @@
       (net 18 "Net-(C26-Pad1)") (pintype "passive") (tstamp d31ff362-ce66-42cd-bc9d-00b9c1cff20c))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 25d2d882-d3a3-411e-8f02-b640129c6142))
-    (model "${ANT3DMDL}/0402-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0402-cap.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
