@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 46,
+    "active_layer": 39,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -10,7 +10,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 1.0
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -18,7 +18,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -37,6 +37,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -61,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "fecf8d0_7ffffff9",
-    "zone_display_mode": 0
+    "visible_layers": "00090f0_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "antmicro-hdmi-mipi-bridge-hw.kicad_prl",
