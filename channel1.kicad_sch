@@ -9564,7 +9564,7 @@
   )
 
   (symbol (lib_id "antmicroFCCConnectors:5051101992") (at 116.84 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board no) (dnp yes)
     (uuid ea5ffa3d-d8bf-4306-ac88-97bd053b2c39)
     (property "Reference" "J3" (at 120.65 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
