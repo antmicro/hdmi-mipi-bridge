@@ -11,7 +11,7 @@
   )
 
   (lib_symbols
-    (symbol "antmicro-hdmi-mipi-bridge-hw:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "antmicropower:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -57,7 +57,8 @@
         )
       )
     )
-    (symbol "antmicro-hdmi-mipi-bridge-hw:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+
+    (symbol "antmicropower:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -103,7 +104,8 @@
         )
       )
     )
-    (symbol "antmicro-hdmi-mipi-bridge-hw:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+
+    (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -137,7 +139,8 @@
         )
       )
     )
-    (symbol "antmicro-hdmi-mipi-bridge-hw:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+
+    (symbol "antmicropower:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -171,6 +174,7 @@
         )
       )
     )
+
     (symbol "antmicro-hdmi-mipi-bridge-hw:Spacer_H6mm_9774060151" (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 22.86 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -217,6 +221,7 @@
         )
       )
     )
+
     (symbol "antmicro-hdmi-mipi-bridge-hw:WE_68715014022" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 19.05 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3262,7 +3267,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:PWR_FLAG") (at 180.34 201.295 0) (unit 1)
+  (symbol (lib_id "antmicropower:PWR_FLAG") (at 180.34 201.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06d61a41-cb38-4bf2-bee3-b8426d4f01cd)
     (property "Reference" "#FLG0111" (at 180.34 199.39 0)
@@ -3324,7 +3329,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:GND") (at 344.17 240.03 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 344.17 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2de5a6fc-388a-4f88-8193-15723f07e995)
     (property "Reference" "#PWR0192" (at 344.17 246.38 0)
@@ -3423,7 +3428,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:PWR_FLAG") (at 164.465 206.375 0) (unit 1)
+  (symbol (lib_id "antmicropower:PWR_FLAG") (at 164.465 206.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e6b1038-5a63-4ea7-ac64-b76602f9e057)
     (property "Reference" "#FLG0110" (at 164.465 204.47 0)
@@ -3485,7 +3490,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:GND") (at 201.93 209.55 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 201.93 209.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a26fdcb-20f5-4ae4-aaaa-f743ee146c5d)
     (property "Reference" "#PWR0101" (at 201.93 215.9 0)
@@ -3510,7 +3515,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:+3V3") (at 172.085 200.66 0) (unit 1)
+  (symbol (lib_id "antmicropower:+3V3") (at 172.085 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a30e50e1-6769-49eb-b1c4-66edb09c4a2b)
     (property "Reference" "#PWR0102" (at 172.085 204.47 0)
@@ -3621,7 +3626,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:+5V") (at 156.845 205.74 0) (unit 1)
+  (symbol (lib_id "antmicropower:+5V") (at 156.845 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbffb109-2551-45f4-b06f-8d979c240965)
     (property "Reference" "#PWR0103" (at 156.845 209.55 0)
@@ -3646,7 +3651,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:GND") (at 372.11 227.33 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 372.11 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc13938c-1f5c-413c-8bd5-15fbf87146c5)
     (property "Reference" "#PWR0194" (at 372.11 233.68 0)
@@ -3671,7 +3676,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:GND") (at 372.11 240.03 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 372.11 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc483bac-2f4e-42fc-8c91-32b7fb63f66c)
     (property "Reference" "#PWR0193" (at 372.11 246.38 0)
@@ -3696,7 +3701,7 @@
     )
   )
 
-  (symbol (lib_id "antmicro-hdmi-mipi-bridge-hw:GND") (at 344.17 227.33 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 344.17 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5d665e2-eeed-49db-8542-36c8f09c4c65)
     (property "Reference" "#PWR0195" (at 344.17 233.68 0)

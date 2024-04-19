@@ -9,10 +9,7 @@
     (date "2023-07-20")
     (rev "1.3.1")
   )
-
-  (lib_symbols
-  )
-
+  (lib_symbols)
 
   (image (at 38.89 272.78) (scale 0.4)
     (uuid 53adb7a8-9535-4d1d-97f3-45a695df7205)
