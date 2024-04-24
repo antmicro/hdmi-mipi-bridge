@@ -6,8 +6,8 @@
 
   (title_block
     (title "HDMI-MIPI Bridge")
-    (date "2023-07-20")
-    (rev "1.3.1")
+    (date "2024-04-24")
+    (rev "1.3.2")
   )
 
   (lib_symbols
