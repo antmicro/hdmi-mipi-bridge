@@ -80,7 +80,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_470p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -150,7 +149,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_47p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -220,7 +218,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0603:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -290,7 +287,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0603:C_4u7_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -360,7 +356,6 @@
         )
       )
     )
-
     (symbol "antmicroFCCConnectors:5051101992" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -475,7 +470,6 @@
         )
       )
     )
-
     (symbol "antmicroFerriteBeadsandChips:FB_120Z_3A_Murata-BLM18SG_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 13.97 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -553,7 +547,6 @@
         )
       )
     )
-
     (symbol "antmicroFerriteBeadsandChips:FB_1kZ_0.8A_WE-CBF_0805" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 15.24 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -631,7 +624,6 @@
         )
       )
     )
-
     (symbol "antmicroFerriteBeadsandChips:FB_600Z_0.5A_Murata-BLM18AG_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 15.24 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -709,7 +701,6 @@
         )
       )
     )
-
     (symbol "antmicroInterfaceControllers:TC358742XBG" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 40.64 10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1019,7 +1010,6 @@
         )
       )
     )
-
     (symbol "antmicroLogicTranslatorsLevelShifters:PCA9517ATP" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 33.02 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1094,7 +1084,6 @@
         )
       )
     )
-
     (symbol "antmicroOscillators:Oscillator_27MHz_TXC_7C" (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 25.4 -1.905 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1167,7 +1156,6 @@
         )
       )
     )
-
     (symbol "antmicroPMICVoltageRegulatorsLinear:TLV73312PDBVT" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 35.56 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1226,7 +1214,6 @@
         )
       )
     )
-
     (symbol "antmicroPMICVoltageRegulatorsLinear:TLV73325PDBVT" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 35.56 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1285,7 +1272,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1340,7 +1326,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_22R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1395,7 +1380,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_2k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1450,7 +1434,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0603:R_0R_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1508,7 +1491,6 @@
         )
       )
     )
-
     (symbol "antmicroTVSDiodes:TPD8S009DSMR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1611,7 +1593,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1651,7 +1632,6 @@
         )
       )
     )
-
     (symbol "antmicroVideoConnectors:HDMI-A_Molex_471511001" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 45.72 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1851,7 +1831,6 @@
         )
       )
     )
-
     (symbol "antmicropower:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1898,7 +1877,6 @@
         )
       )
     )
-
     (symbol "antmicropower:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1945,7 +1923,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1980,7 +1957,6 @@
         )
       )
     )
-
     (symbol "antmicropower:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -6533,8 +6509,8 @@
     (property "License" "Apache-2.0" (at 142.24 59.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "DNP" "DNP" (at 0.0 0.0 0)
-      (effects (font (size 1.0 1.0)))
+    (property "DNP" "DNP" (at 0 0 0)
+      (effects (font (size 1 1)))
     )
     (pin "1" (uuid f387dc15-a794-42ee-8e0c-cb37d2dfb68a))
     (pin "10" (uuid 09b9429e-0778-4923-af6d-7dfcd942e466))
@@ -8963,6 +8939,7 @@
     (pin "7" (uuid 168958e7-8156-4643-a869-8e3643813935))
     (pin "8" (uuid 1ccf4fd3-6ccc-4d3e-912b-d0911897d64e))
     (pin "9" (uuid 95b40cf3-4cb0-4b05-a0d8-5fbef0be4e97))
+    (pin "8" (uuid 775f3f9e-9982-45d9-a241-94ec08934363))
     (instances
       (project "antmicro-hdmi-mipi-bridge-hw"
         (path "/986e1fb1-d06b-4220-a40c-b0cc1c7adce3/d09d28b1-d7e8-46ff-a02b-bb4ed7a95e81"
