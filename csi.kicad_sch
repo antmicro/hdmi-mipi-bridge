@@ -457,6 +457,7 @@
         )
       )
     )
+
     (symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R" (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 22.86 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -503,6 +504,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -549,6 +551,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -595,6 +598,7 @@
         )
       )
     )
+
     (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -629,6 +633,7 @@
         )
       )
     )
+
     (symbol "antmicropower:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
