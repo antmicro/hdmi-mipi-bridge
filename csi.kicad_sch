@@ -479,6 +479,9 @@
       (property "Author" "Antmicro" (at 22.86 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
+      (property "Public" "False" (at 22.86 -12.7 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
       (property "License" "Apache-2.0" (at 22.86 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
@@ -3356,6 +3359,9 @@
     (property "License" "Apache-2.0" (at 396.24 259.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
+    (property "Public" "False" (at 396.24 251.46 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
     (pin "1" (uuid 17c29bc4-320d-4ed2-9eaa-cdfafe39b37d))
     (instances
       (project "antmicro-hdmi-mipi-bridge-hw"
@@ -3424,6 +3430,9 @@
     (property "License" "Apache-2.0" (at 368.3 246.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
+    (property "Public" "False" (at 368.3 238.76 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
     (pin "1" (uuid 9a619dfb-1bc0-45a7-8736-f8853643bd9b))
     (instances
       (project "antmicro-hdmi-mipi-bridge-hw"
@@ -3460,6 +3469,9 @@
     )
     (property "License" "Apache-2.0" (at 396.24 246.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Public" "False" (at 396.24 238.76 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid bc0ef869-527e-4a7b-8a1c-be1bae0943e6))
     (instances
@@ -3522,6 +3534,9 @@
     )
     (property "License" "Apache-2.0" (at 368.3 259.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Public" "False" (at 368.3 251.46 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid 69474ff3-2fde-4d54-8e0b-5764bd84be2e))
     (instances
